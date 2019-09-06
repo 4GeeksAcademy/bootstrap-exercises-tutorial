@@ -22,7 +22,7 @@ OR
 ## 📝 Instructions:
 
 
-1. Link the Bootstrap CSS Stylesheet with the document using the **<link>** tag.
+1. Link the Bootstrap CSS Stylesheet with the document using the **link** tag.
 2. Wrap the content of the website within a div with a **container** class.
 3. Run the exercise and compare the differences.
 4. Now change the class of the main div to **container-fluid**.
