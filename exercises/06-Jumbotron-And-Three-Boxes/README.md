@@ -1,4 +1,4 @@
-# `05` Jumbotron And 3 Boxes
+# `06` Jumbotron And 3 Boxes
 
 Recreate this exact HTML using Bootstrap (you don't need any CSS at all):
 
