@@ -12,7 +12,7 @@ https://getbootstrap.com/docs/4.3/components/navs/
 ## 📝 Instructions:
 
 
-1. Run the exercise.
+1. **Build** and then **Preview** the exercise.
 2. Apply the classes to the code just like this example: https://getbootstrap.com/docs/4.3/components/navs/#base-nav
-3. Run and compare the differences.
+3. **Build** and then **Preview** again and compare the differences.
 4. Now add the "nav-tabs" class to the same **ul** (without removing the class nav) and compare the results.
