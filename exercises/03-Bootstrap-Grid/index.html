@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+			integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="index.css" />
+		<title>03 Bootstrap Grid</title>
+	</head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-        integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <title>03 Bootstrap Grid</title>
+	<body>
+		<div class="container-fluid">
+			<h1>Let's test the grid baby!</h1>
 
-</head>
-
-<body>
-    <div class="container">
-        <h1>Let's test the grid baby!</h1>
-        <div class="row">
-            <div>First col</div>
-            <div>Second col</div>
-        </div>
-        <div class="row">
-            <div>Third col</div>
-            <div>Forth col</div>
-        </div>
-    </div>
-
-
-
-</body>
-
+			<div class="row">
+				<div class="col-6">First col</div>
+				<div class="col-6">Second col</div>
+			</div>
+			<div class="row">
+				<div class="col-4">Third col</div>
+				<div class="col-4">Fourth col</div>
+				<div class="col-4">Fourth col</div>
+			</div>
+			<div class="row">
+				<div class="bg-danger col-12">Sixth col</div>
+			</div>
+		</div>
+	</body>
 </html>

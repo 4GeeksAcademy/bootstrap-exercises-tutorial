@@ -27,8 +27,10 @@ https://tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid
 1. Make the second row to have 3 columns of the same width (split the row in 3).
 2. Add a third row with only one column of 12 slots.
 3. Change the background color of this last row to red.
+4. Change the main **container** to **container-fluid**
 
 ![Example Image](https://storage.googleapis.com/replit/images/1509892918783_38dc765ee66d5d7e4258e43e5f5dde8d.png)
 
 ## 💡Hint:
 Set the class properties of each column and specify how many slots you want each column to take.
+Check Bootstrap documentation to change the background color to red.
