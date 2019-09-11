@@ -8,7 +8,8 @@ Anchor, button, alert, helper and other Bootstrap elements can have 7 different 
 It's not only aesthetics, each style is meant to serve a specific purpose in your website depending on the context.
 
 More on Bootstrap buttons:
-https://getbootstrap.com/docs/4.0/components/buttons/
+- https://getbootstrap.com/docs/4.3/components/buttons/
+- https://getbootstrap.com/docs/4.3/content/tables/#striped-rows
 
 ## 📝 Instructions:
 
