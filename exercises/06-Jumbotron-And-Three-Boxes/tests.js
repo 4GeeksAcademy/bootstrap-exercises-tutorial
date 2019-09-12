@@ -5,7 +5,7 @@ const css=fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
 
 jest.dontMock("fs");
 
-describe("You should not change existing code", function () {
+describe("All the tests should pass", function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
@@ -36,7 +36,7 @@ describe("You should not change existing code", function () {
     });
 
 });
-describe('All the rules to create the jumbotron should be applied', function () {
+describe('1. All the rules to create the jumbotron should be applied', function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
@@ -80,7 +80,7 @@ describe('All the rules to create the jumbotron should be applied', function () 
 
     });
 });
-describe('All the rules to create the second row should be applied', function () {
+describe('2. All the rules to create the second row should be applied', function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
