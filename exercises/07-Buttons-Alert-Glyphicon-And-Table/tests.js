@@ -5,7 +5,7 @@ const css=fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
 
 jest.dontMock("fs");
 
-describe("1. You should not change the existing code", function () {
+describe("All the tests should pass", function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
@@ -36,7 +36,7 @@ describe("1. You should not change the existing code", function () {
     });
 
 });
-describe("2. You should use a main container with a row and 2 columns", function () {
+describe("1. You should use a main container with a row and 2 columns", function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
@@ -75,7 +75,7 @@ describe("2. You should use a main container with a row and 2 columns", function
 
 
 });
-describe("3. The LEFT column should contain all the required elements in the correct position and with the correct style", function () {
+describe("2. The LEFT column should contain all the required elements in the correct position and with the correct style", function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
@@ -113,7 +113,7 @@ describe("3. The LEFT column should contain all the required elements in the cor
 
 
 });
-describe("4. The RIGHT column should contain all the required elements in the correct position and with the correct style", function () {
+describe("3. The RIGHT column should contain all the required elements in the correct position and with the correct style", function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
