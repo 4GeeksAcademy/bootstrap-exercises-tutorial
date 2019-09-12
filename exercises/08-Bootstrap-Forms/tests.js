@@ -5,7 +5,7 @@ const css=fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
 
 jest.dontMock("fs");
 
-describe("1. You should not change the existing code", function () {
+describe("All the tests should pass", function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
@@ -36,7 +36,7 @@ describe("1. You should not change the existing code", function () {
     });
 
 });
-describe("2. You should use a main container with a row and 1 column", function () {
+describe("1. You should use a main container with a row and 1 column", function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
@@ -76,7 +76,7 @@ describe("2. You should use a main container with a row and 1 column", function 
 
 
 });
-describe("3. You should replicate the same design", function () {
+describe("2. You should replicate the same design", function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
@@ -94,7 +94,7 @@ describe("3. You should replicate the same design", function () {
         expect(title[0].innerHTML).toBe("Please Login");
 
     })
-    describe("3b. You should use a form group to recreate the same example", function () {
+    describe("2b. You should use a form group to recreate the same example", function () {
         beforeEach(() => {
             //here I import the HTML into the document
             document.documentElement.innerHTML=html.toString();
@@ -124,7 +124,7 @@ describe("3. You should replicate the same design", function () {
         })
 
     });
-    describe("3c. You should replicate both input fields", function () {
+    describe("2c. You should replicate both input fields", function () {
         beforeEach(() => {
             //here I import the HTML into the document
             document.documentElement.innerHTML=html.toString();
@@ -150,7 +150,7 @@ describe("3. You should replicate the same design", function () {
             expect(form[1].children[0].classList.contains("form-control")).toBeTruthy();
         })
     })
-    describe("3d. You should replicate the same checkbox", function () {
+    describe("2d. You should replicate the same checkbox", function () {
         beforeEach(() => {
             //here I import the HTML into the document
             document.documentElement.innerHTML=html.toString();
@@ -178,7 +178,7 @@ describe("3. You should replicate the same design", function () {
         })
     })
 
-    describe("3e. You should replicate the same button", function () {
+    describe("2e. You should replicate the same button", function () {
         beforeEach(() => {
             //here I import the HTML into the document
             document.documentElement.innerHTML=html.toString();
@@ -204,92 +204,4 @@ describe("3. You should replicate the same design", function () {
         })
     });
 });
-
-    //     it("The third elements should be 2 buttons, following the bootstrap documentation link above  ", function () {
-    //         let leftCol=document.querySelector(".row").children[0].children
-    //         //console.log("left:", leftCol[0].nodeName)
-    //         expect(leftCol[2].nodeName).toBe("BUTTON");
-    //         expect(leftCol[3].nodeName).toBe("BUTTON");
-    //         expect(leftCol[2].classList.contains("btn")).toBeTruthy();
-    //         expect(leftCol[2].classList.contains("btn-success")).toBeTruthy();
-    //         expect(leftCol[3].classList.contains("btn")).toBeTruthy();
-    //         expect(leftCol[3].classList.contains("btn-danger")).toBeTruthy();
-
-
-    //     })
-
-
-
-    // });
-    // describe("4. The RIGHT column should contain all the required elements in the correct position and with the correct style", function () {
-    //     beforeEach(() => {
-    //         //here I import the HTML into the document
-    //         document.documentElement.innerHTML=html.toString();
-
-    //         //apply the styles from the stylesheet if needed
-
-    //     });
-    //     afterEach(() => {
-    //         jest.resetModules();
-    //     });
-    //     it("The first element should be a DIV alert ", function () {
-    //         let rightCol=document.querySelector(".row").children[1].children
-    //         // console.log("left:", rightCol[0].innerHTML)
-    //         expect(rightCol[0].nodeName).toBe("DIV");
-    //         expect(rightCol[0].classList.contains("alert")).toBeTruthy();
-    //         expect(rightCol[0].classList.contains("alert-warning")).toBeTruthy();
-
-
-    //     })
-    //     it("The second element should be TABLE with striped rows", function () {
-    //         let rightCol=document.querySelector(".row").children[1].children
-    //         // console.log("left:", rightCol[1])
-    //         expect(rightCol[1].nodeName).toBe("TABLE");
-    //         expect(rightCol[1].classList.contains("table")).toBeTruthy();
-    //         expect(rightCol[1].classList.contains("table-striped")).toBeTruthy();
-
-    //     })
-    //     it("The TABLE should contain 3 Columns and 3 Rows ", function () {
-    //         // let table=document.querySelector(".row").children[1].children[1]
-    //         let table=document.querySelector("table").children
-    //         console.log("table:", table[1].children[0].children)
-    //         expect(table.length).toBe(2);
-    //         expect(table[0].nodeName).toBe("THEAD");
-    //         expect(table[1].nodeName).toBe("TBODY");
-    //         expect(table[0].children.length).toBe(1);
-    //         expect(table[0].children[0].children.length).toBe(3);
-    //         expect(table[0].children[0].children[0].innerHTML).toBe("Firstname");
-    //         expect(table[0].children[0].children[1].innerHTML).toBe("Lastname");
-    //         expect(table[0].children[0].children[2].innerHTML).toBe("Email");
-    //         expect(table[1].children.length).toBe(3);
-    //         expect(table[1].children[0].nodeName).toBe("TR");
-    //         expect(table[1].children[1].nodeName).toBe("TR");
-    //         expect(table[1].children[2].nodeName).toBe("TR");
-    //         expect(table[1].children[0].children.length).toBe(3);
-    //         expect(table[1].children[0].children.length).toBe(3);
-    //         expect(table[1].children[1].children.length).toBe(3);
-    //         expect(table[1].children[1].children.length).toBe(3);
-
-
-    //         // let tableRow=table[1].children
-    //         // const values=Object.values(tableRow)
-    //         // console.log("###", values)
-    //         // let temp=null
-    //         // for (let i=0; i<values.length; i++) {
-    //         //     for (let x of values[i].nodeName) {
-    //         //         if (x!=="TR") {
-    //         //             console.log("false", x)
-    //         //             temp=false
-    //         //         } else {
-    //         //             console.log("true", x)
-    //         //             temp=true
-    //         //         }
-
-    //         //     } expect(temp).toBeTruthy();
-    //         // }
-
-
-    //     })
-
-
 

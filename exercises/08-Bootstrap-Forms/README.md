@@ -2,7 +2,7 @@
 
 Use Bootstrap form styles to recreate this exact same login form:
 
-![Example Image](https://storage.googleapis.com/replit/images/1509929123152_1b46a092784a41428bb0ea6b77147b1c.png)
+![Example Image](https://ucarecdn.com/f5fe0f86-9032-45fc-96d2-3c90bf29fcf6/bootstrap08.png)
 
 ## 💡Hint:
 To do this exercise you need to use the Bootstrap documentation:
