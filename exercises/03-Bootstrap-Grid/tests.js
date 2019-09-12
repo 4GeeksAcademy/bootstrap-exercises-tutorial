@@ -5,7 +5,7 @@ const css=fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
 
 jest.dontMock("fs");
 
-describe("You should not change existing code", function () {
+describe("All the tests should pass", function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
@@ -43,7 +43,7 @@ describe("You should not change existing code", function () {
         expect(divContent.toString().indexOf(`<div class="col-6">Second col</div>`)>-1).toBeTruthy();
     });
 });
-describe('All the rules in the instructions should be applied', function () {
+describe('1. All the rules in the instructions should be applied', function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
@@ -51,7 +51,7 @@ describe('All the rules in the instructions should be applied', function () {
     afterEach(() => {jest.resetModules();});
 
 
-    it('The second row should contains 3 columns of the same width', function () {
+    it('The second row should contain 3 columns of the same width', function () {
         let ndRow=document.querySelectorAll(".row")[1].innerHTML
         // we can read from the source code
         // console.log(html.toString());
@@ -78,7 +78,7 @@ describe('All the rules in the instructions should be applied', function () {
         expect(rdRowClassesBg).toBeTruthy();
         // expect(divContent.toString().indexOf(`<p>I can't believe that bootstap is so easy, now HTML and CSS are a simple but very usefull technology.</p>`)>-1).toBeTruthy();
     });
-    it('The main div tag should contains the class container-fluid', function () {
+    it('The main div tag should contain the class container-fluid', function () {
 
         // we can read from the source code
         // console.log(html.toString());
