@@ -10,3 +10,8 @@
 
 !/exercises
 !/exercises/*
+
+!/.breathecode
+/.breathecode/**
+!/.breathecode/resets
+!/.breathecode/resets/**
