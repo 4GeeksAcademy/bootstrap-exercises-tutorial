@@ -14,11 +14,11 @@ Learning to code is hard, you need coaching! DM me on twitter if you have any qu
 
 During this course you will be learning the following concepts:
 
-Using how to apply Bootstrap to your website.
-Selecting HTML Elements from your website to apply the Bootstrap styles to.
-Apply Bootstrap classes to those elements.
-Use the most popular Bootstrap Rules.
-Learn the most popular Bootstrap Tricks.
+1. Using how to apply Bootstrap to your website.
+2. Selecting HTML Elements from your website to apply the Bootstrap styles to.
+3. Apply Bootstrap classes to those elements.
+4. Use the most popular Bootstrap Rules.
+5. Learn the most popular Bootstrap Tricks.
 
 ## Manual installation (if you prefer not to use gitpod)
 
