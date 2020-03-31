@@ -1,5 +1,9 @@
 {
   "title": "Learn Bootstrap Interactively",
   "description": "A complete list of small targeted exercises that will show the most usefull things you need to learn about bootstrap",
-  "compiler": "vanillajs"
+  "language": "css",
+  "duration": 8,
+  "difficulty": "easy",
+  "video-solutions": false,
+  "graded": true
 }
