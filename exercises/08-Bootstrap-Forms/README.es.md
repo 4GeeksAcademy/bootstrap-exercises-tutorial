@@ -13,3 +13,4 @@ https://getbootstrap.com/docs/4.3/components/forms/#overview
 ###### Botones
 - https://getbootstrap.com/docs/4.3/components/buttons/#examples
 - https://getbootstrap.com/docs/4.3/components/buttons/#sizes
+- Como utilizar `cards`: https://getbootstrap.com/docs/4.3/components/card/#card-layout
