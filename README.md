@@ -1,18 +1,19 @@
+<table>
+  <tr>
+    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
+    <td>
+      <h1 align="center"> Bootstrap Exercises Tutorial at 4Geeks Academy</h1>
+      <img src="https://img.shields.io/github/last-commit/4geeksacademy/bootstrap-exercises" />
+      <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
+      <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
+      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,128">
-</p>
+My name is Alejandro Sanchez @alesanchezr. I'm really excited to have you here !! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question.
 
-<p>
-    <h2 align="center"> Bootstrap Exercises at 4Geeks Academy (beta) </h2>
-</p>
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises.git)
-
-My name is Alejandro Sanchez [@alesanchezr](https://twitter.com/alesanchezr). I'm really excited to have you here !! 🎉 😂
-Learning to code is hard, you need coaching! DM me on twitter if you have any question.
-
-During this course you will be learning the following concepts:
+During this course you'll be learning the following concepts:
 
 1. Using how to apply Bootstrap to your website.
 2. Selecting HTML Elements from your website to apply the Bootstrap styles to.
@@ -20,7 +21,18 @@ During this course you will be learning the following concepts:
 4. Use the most popular Bootstrap Rules.
 5. Learn the most popular Bootstrap Tricks.
 
-## Manual installation (if you prefer not to use gitpod)
+<ol>
+  <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a> ← your are here now</li>
+</ol>
+
+
+<h2>One click installation:</h2>
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises.git)
+
+## Local Installation
 
 1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
 ```
@@ -28,10 +40,7 @@ This is the command to install the breathecode-cli
 $ npm i breathecode-cli -g
 ```
 
-2) Download the react exercises by cloning this repository
-```
-$ git clone https://github.com/4GeeksAcademy/bootstrap-exercises
-```
+2) Clone or download this repository. Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
 
 Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
@@ -51,9 +60,10 @@ $ breathecode run
 
 Each exercise is a small react application containing the following files:
 
-1. **index.css:** your CSS code goes here.
-2. **README.md:** contains exercise instructions.
-3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
+1. **README.md:** contains exercise instructions.
+2. **indexhtml:** HTML for your exercise.
+3. **index.css:** your CSS code goes here.
+4. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
 ## Contributors
 
