@@ -11,9 +11,7 @@
   </tr>
 </table>
 
-My name is Alejandro Sanchez @alesanchezr. I'm really excited to have you here !! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question.
-
-During this course you'll be learning the following concepts:
+Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question. You'll be learning the following concepts:
 
 1. Using how to apply Bootstrap to your website.
 2. Selecting HTML Elements from your website to apply the Bootstrap styles to.
@@ -21,12 +19,12 @@ During this course you'll be learning the following concepts:
 4. Use the most popular Bootstrap Rules.
 5. Learn the most popular Bootstrap Tricks.
 
+<h4>Before we start... other related tutorials</h4>
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a> ← your are here now</li>
 </ol>
-
 
 <h2>One click installation:</h2>
 
