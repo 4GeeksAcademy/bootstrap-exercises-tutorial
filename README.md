@@ -28,7 +28,7 @@ Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! ðŸŽ‰ ðŸ
 
 <h2>One click installation:</h2>
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises.git)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial.git)
 
 ## Local Installation
 
