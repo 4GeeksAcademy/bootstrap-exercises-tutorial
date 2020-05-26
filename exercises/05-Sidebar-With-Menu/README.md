@@ -2,7 +2,7 @@
 
 Replicate this exact design:
 
-![Example Image](https://storage.googleapis.com/replit/images/1509911882903_9a14b4fa806a07fbbff1abb2143b7799.png)
+![Example Image](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/.learn/assets/1509911882903_9a14b4fa806a07fbbff1abb2143b7799.png?raw=true)
 
 ## 💡Hint:
 Hint: Create a row with two columns, the column on the left will have a nav inside and the column on the right will have a **jumbotron**.

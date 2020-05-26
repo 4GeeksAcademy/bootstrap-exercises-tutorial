@@ -34,6 +34,9 @@ describe("All the tests should pass", function () {
     it("The styles.css file should be empty", function () {
         expect(css.toString()==="").toBeTruthy();
     });
+    it("Do not use any inline styles, just use the bootstrap classes for styling", function () {
+        expect(html.toString().match(/style(\s*)=(\s*)["']/)).toBeFalsy();
+    });
 
 });
 describe('1. All the rules in the instructions should be applied', function () {

@@ -2,7 +2,7 @@
 
 Usa los estilos de formulario de Bootstrap para recrear exactamente el mismo formulario de inicio de sesión:
 
-![Example Image](https://ucarecdn.com/f5fe0f86-9032-45fc-96d2-3c90bf29fcf6/bootstrap08.png)
+![Example Image](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/.learn/assets/bootstrap08.png?raw=true)
 
 ## 💡Pista:
 Para hacer este ejercicio, debe usar la documentación de Bootstrap:

@@ -29,7 +29,7 @@ https://tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid
 3. Cambia el color de fondo de esta última fila a rojo.
 4. Cambia el principal **container** a **container-fluid**
 
-![Example Image](https://storage.googleapis.com/replit/images/1509892918783_38dc765ee66d5d7e4258e43e5f5dde8d.png)
+![Example Image](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/.learn/assets/1509892918783_38dc765ee66d5d7e4258e43e5f5dde8d.png?raw=true)
 
 ## 💡Pista:
 Establece las propiedades de clase de cada columna y especifica cuántos espacios deseas que tome cada columna.
