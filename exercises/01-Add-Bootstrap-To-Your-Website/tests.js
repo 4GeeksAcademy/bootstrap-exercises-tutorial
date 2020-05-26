@@ -42,7 +42,6 @@ describe('1. The html code should contain the link tag and 3 Boostrap script tag
     afterEach(() => {jest.resetModules();});
     it('The head tag should contain the link tag for Bootstrap', function () {
         let bodyContent=document.getElementsByTagName("head")[0].innerHTML
-        console.log("head:", bodyContent)
         // we can read from the source code
         // console.log(html.toString());
         expect(bodyContent.toString().indexOf(`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">`)>-1).toBeTruthy();

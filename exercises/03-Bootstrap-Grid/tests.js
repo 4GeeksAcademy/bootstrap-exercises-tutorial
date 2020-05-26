@@ -34,6 +34,9 @@ describe("All the tests should pass", function () {
     it("The styles.css file should be empty", function () {
         expect(css.toString()==="").toBeTruthy();
     });
+    it("Do not use any inline styles, just use the bootstrap classes for styling", function () {
+        expect(html.toString().match(/style(\s*)=(\s*)["']/)).toBeFalsy();
+    });
     it('You should not change the first row', function () {
         let divContent=document.querySelectorAll(".row")[0].innerHTML
         console.log("ROW:", divContent)

@@ -1,11 +1,11 @@
 # Welcome to Bootstrap Exercises!!
 
-My name is Alejandro Sanchez @alesanchezr. I'm really excited to have you here !! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question.
+My name is [Alejandro Sanchez](https://twitter.com/alesanchezr). I'm really excited to have you here !! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question.
 
 During this course you will be learning the following concepts:
 
 1. Using how to apply Bootstrap to your website.
-2. Selecting HTML Elements from your website to apply the Bootstrap styles to.
+2. Selecting HTML Elements from your website to apply the Bootstrap styles.
 3. Apply Bootstrap classes to those elements.
 4. Use the most popular Bootstrap Rules.
 5. Learn the most popular Bootstrap Tricks.
