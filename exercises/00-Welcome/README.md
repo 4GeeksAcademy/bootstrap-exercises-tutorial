@@ -4,13 +4,13 @@ My name is [Alejandro Sanchez](https://twitter.com/alesanchezr). I'm really exci
 
 During this course you will be learning the following concepts:
 
-1. Using how to apply Bootstrap to your website.
+1. How to apply Bootstrap to your website.
 2. Selecting HTML Elements from your website to apply the Bootstrap styles.
 3. Apply Bootstrap classes to those elements.
 4. Use the most popular Bootstrap Rules.
 5. Learn the most popular Bootstrap Tricks.
 
-As you may have noticed, HTML allows you to create only basic websites. Nobody wants to see a white website with some horrible text on it. So it's time to learn what is Bootstrap all about! Learn Bootstrap to make your website beautiful. Let's make it shine!
+As you may have noticed, HTML allows you to create only basic websites. Nobody wants to see a white website with some horrible text on it. So it's time to learn what Bootstrap is all about! Learn Bootstrap to make your website beautiful. Let's make it shine!
 
 ## Contributors
 
