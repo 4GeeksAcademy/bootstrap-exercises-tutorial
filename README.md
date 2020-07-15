@@ -13,7 +13,7 @@
 
 Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question. You'll be learning the following concepts:
 
-1. Using how to apply Bootstrap to your website.
+1. How to apply Bootstrap to your website.
 2. Selecting HTML Elements from your website to apply the Bootstrap styles to.
 3. Apply Bootstrap classes to those elements.
 4. Use the most popular Bootstrap Rules.
