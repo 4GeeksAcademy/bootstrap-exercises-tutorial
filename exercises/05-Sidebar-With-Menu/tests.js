@@ -60,7 +60,7 @@ describe('1. All the rules in the instructions should be applied', function () {
 
 
     });
-    it('The div tag should contain a row', function () {
+    it('The div tag should contain a <div> with class row', function () {
         let divContent=document.getElementsByTagName("div")[0].innerHTML
         // we can read from the source code
         // console.log(html.toString());
@@ -71,13 +71,11 @@ describe('1. All the rules in the instructions should be applied', function () {
         let rowContent=document.querySelector(".row").children
         // we can read from the source code
         // console.log(html.toString());
-        console.log("divCont:", rowContent[0].classList[0])
-        expect(rowContent[0].classList[0]).toBe("col-2")
-        expect(rowContent[1].classList[0]).toBe("col-10")
+        expect([...rowContent[0].classList].includes("col-2")).toBe(true)
+        expect([...rowContent[1].classList].includes("col-10")).toBe(true)
     });
-    it('The left column should contain a nav with anchor tags with class nav-link', function () {
+    it('The left column should contain a <nav> tag with anchor tags with class nav-link', function () {
         let navContent=document.querySelector(".col-2").querySelector("nav")
-        console.log("nav", navContent[0])
         expect(navContent.classList.contains("nav")).toBeTruthy();
         expect(navContent.classList.contains("flex-column")).toBeTruthy();
 
@@ -90,8 +88,7 @@ describe('1. All the rules in the instructions should be applied', function () {
     });
     it('The jumbotron should contain an H4, a p and a button ', function () {
         let jumbotron=document.querySelector(".jumbotron").innerHTML
-        console.log("jumbo", jumbotron)
-        expect(jumbotron.toString().indexOf(`<h4>Hello!</h4>`)>-1).toBeTruthy();
+        expect(jumbotron.toString().indexOf(`<h4`)>-1).toBeTruthy();
         expect(jumbotron.toString().indexOf(`<p`)>-1).toBeTruthy();
         expect(jumbotron.toString().indexOf(`<a`)>-1).toBeTruthy();
     });
