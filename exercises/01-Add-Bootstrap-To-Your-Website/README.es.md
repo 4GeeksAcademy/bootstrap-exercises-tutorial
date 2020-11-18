@@ -1,6 +1,6 @@
-# `01` Agrega Bootstrap a tu Website
+# `01` Agrega Bootstrap a tu sitio web
 
-Hay dos formas de agregar Bootstrap a tu sitio web: Remoto o Local (como cualquier otro archivo CSS), la única diferencia será la ruta URL que especifiques en la etiqueta <link> (para los archivos .CSS de Bootstrap) o <script> etiqueta (para los archivos .JS de Bootstrap).
+Hay dos formas de agregar Bootstrap a tu sitio web: Remoto o Local (como cualquier otro archivo CSS), la única diferencia será la ruta URL que especifiques en la etiqueta <link> (para los archivos .CSS de Bootstrap) o la etiqueta <script> (para los archivos .JS de Bootstrap).
 
 Así es como se realiza una importación remota de Bootstrap CSS:
 
@@ -11,7 +11,7 @@ Así es como se realiza una importación remota de Bootstrap CSS:
 ```
 
 
-Nota: No se preocupe por las propiedades como "integrity" y "crossorigin", son necesarias por razones de seguridad.
+Nota: No te preocupes por las propiedades como "integrity" y "crossdomain", son necesarias por razones de seguridad.
 
 Así es como agrega bootstrap desde un archivo local (que está en su lugar de trabajo):
 
@@ -24,7 +24,7 @@ Nota: es una buena idea asegurarse de que tu archivo exista en esa URL, puedes p
 
 Bootstrap se compone de 2 archivos: la hoja de estilo CSS y el código fuente Javascript.
 
-El Stylesheet de CSS de Bootstrap <link> se pega en la etiqueta <head> antes que cualquier otra Stylesheet de CSS.
+La hoja de estilos CSS de Bootstrap se pega en la etiqueta <head> antes que cualquier otra hoja de estilos CSS.
 
 Las etiquetas <link> del código fuente de Javascript se pegan justo antes de la etiqueta de cierre </body>.
 
@@ -36,13 +36,13 @@ https://getbootstrap.com/docs/4.0/getting-started/introduction/
 
 1. Agrega estos enlaces a tu archivo para importar Bootstrap con éxito:
 
-Bootstrap CSS StyleSheet:
+Hoja de estilos CSS Bootstrap:
 
 ```html
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 ```
-Javascript Source Code:
+Código fuente Javascript:
 
 ```html
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

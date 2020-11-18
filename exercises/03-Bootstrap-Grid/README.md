@@ -2,6 +2,7 @@
 
 Now let's talk about the grid - as you know, every row has 12 boxes with ~8% of the website's width, a column can take from 1 to 12 slots of width, and all within the same row cannot add up to more than 12 slots.
 
+
 With Bootstrap 4, you simply have to add the **.col** class and it will automatically distribute the columns evenly throughout the 12 slots within the row.
 If you want a column to take up a specific number of slots, you must specify it in the **class** property of the **div** that holds the column.
 For example:

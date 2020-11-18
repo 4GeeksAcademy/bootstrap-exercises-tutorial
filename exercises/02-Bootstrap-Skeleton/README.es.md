@@ -1,6 +1,6 @@
 # `02` Esqueleto Bootstrap
 
-Si desea importar Bootstrap a su sitio web, puede usar esta URL pública que está disponible para todos:
+Si quieres importar Bootstrap a tu sitio web, puedes usar esta URL pública que está disponible para todo el mundo:
 
 ```html
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -8,13 +8,13 @@ Si desea importar Bootstrap a su sitio web, puede usar esta URL pública que est
 
 ```
 
-
 Al usar Bootstrap, debes incluir todo su contenido dentro de las siguientes clases **container**:
 
 ```html
 <div class="container"></div>
 ```
-OR
+**O**
+
 ```html
 <div class="container-fluid"></div>
 ```
@@ -23,11 +23,11 @@ OR
 ## 📝 Instrucciones:
 
 
-1. Vincula el Stylesheet CSS de Bootstrap con el documento usando la etiqueta **link** que encuentras arriba.
-2. Introduce el contenido del sitio web (website) dentro de un div con una clase **container**.
-3. **Compila** y luego **Vista previa** del ejercicio y comparar las diferencias.
+1. Vincula el hoja de estilos CSS de Bootstrap con el documento usando la etiqueta **link** que encuentras arriba.
+2. Introduce el contenido del sitio web dentro de un div con una clase **container**.
+3. **Compila** y luego **Vista previa** del ejercicio y compara las diferencias.
 4. Ahora cambia la clase del div que acabas de crear a **container-fluid**.
-5. **Compila** y luego **Vista previa** del ejercicio y comparar las diferencias.
+5. **Compila** y luego **Vista previa** del ejercicio y compara las diferencias.
 
 
 ## 💡Pista:
