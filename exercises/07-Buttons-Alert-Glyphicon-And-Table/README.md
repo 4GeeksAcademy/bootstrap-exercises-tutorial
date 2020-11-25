@@ -16,5 +16,6 @@ More on Bootstrap buttons:
 ![Example Image](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/.learn/assets/1509928996281_e5796b115653b0ecb1028ad585b7ff8b.png?raw=true)
 
 Please replicate this exact same image using the Bootstrap elements: Button, Alert, Glyphicon and table (and of course, rows and cols for the layout).
+
 Note: You don't need any CSS!
 
