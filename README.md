@@ -19,7 +19,7 @@ Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! ðŸŽ‰ ðŸ
 4. Use the most popular Bootstrap Rules.
 5. Learn the most popular Bootstrap Tricks.
 
-<h4>Before we start... other related tutorials</h4>
+### Before we start... other related tutorials
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
@@ -30,45 +30,46 @@ Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! ðŸŽ‰ ðŸ
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial.git)
 
-## Local Installation
+## Manual installation
 
-1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
+1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
+
 ```
-This is the command to install the breathecode-cli
-$ npm i breathecode-cli -g
+$ npm i learnpack -g
+$ learnpack plugins:install learnpack-html
 ```
 
-2) Clone or download this repository. Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
+2. Download this particular exercises using learnpack and `cd` into the folder:
+
+```
+$ learnpack download html-forms-tutorial-exercises
+$ cd html-forms-tutorial-exercises
+```
 
 Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
 
-3) Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
+3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
 
 ```sh
 $ npm i jest@24.8.0 -g
-$ cd ./bootstrap-exercises
-$ breathecode run
+$ learnpack start
 ```
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
-</p>
+Node: The xercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
-# How are the exercises organized?
+## How are the React Tutorial Exercises organized?
 
 Each exercise is a small react application containing the following files:
 
-1. **README.md:** contains exercise instructions.
-2. **indexhtml:** HTML for your exercise.
-3. **index.css:** your CSS code goes here.
-4. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
+1. **index.js:** represents the entry file for the entire exercise.
+2. **README.md:** contains exercise instructions.
+3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
-## Contributors
+## Contributors for this React Exercises
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) ðŸ¤”, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
-1. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) :warning:
 
 This project follows the
 [all-contributors](https://github.com/kentcdodds/all-contributors)
