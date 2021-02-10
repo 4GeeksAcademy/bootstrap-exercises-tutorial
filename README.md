@@ -42,8 +42,8 @@ $ learnpack plugins:install learnpack-html
 2. Download this particular exercises using learnpack and `cd` into the folder:
 
 ```
-$ learnpack download html-forms-tutorial-exercises
-$ cd html-forms-tutorial-exercises
+$ learnpack download bootstrap-exercises-tutorial
+$ cd bootstrap-exercises-tutorial
 ```
 
 Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
