@@ -94,7 +94,7 @@ describe("2. You should replicate the same design", function () {
         let title=document.querySelector(".row").querySelector(".col-6").children
         console.log("title:", title[0].nodeName)
         expect(title[0].nodeName).toBe("H2");
-        expect(title[0].innerHTML).toBe("Please Login");
+        expect(title[0].innerHTML).toBe("Please login");
 
     })
     describe("2b. You should use a form group to recreate the same example", function () {
