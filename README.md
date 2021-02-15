@@ -30,29 +30,38 @@ Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! ðŸŽ‰ ðŸ
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial.git)
 
-## Local Installation
-
-1) Make sure you have the [breathecode-cli](https://github.com/breatheco-de/breathecode-cli) installed and `node.js` version 8+
-```
-This is the command to install the breathecode-cli
-$ npm i breathecode-cli -g
-```
-
-2) Clone or download this repository. Once you finish downloading, you will find a new folder with a subdirectory "exercises" that contains all the exercises within.
-
-Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
-
-3) Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
-
-```sh
-$ npm i jest@24.8.0 -g
-$ cd ./bootstrap-exercises
-$ breathecode run
-```
+css-layouts-tutorial-exercises
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
+
+## Local installation
+
+1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
+
+```
+$ npm i learnpack -g
+$ learnpack plugins:install learnpack-html
+```
+
+2. Download this particular exercises using learnpack and `cd` into the folder:
+
+```
+$ learnpack download bootstrap-exercises-tutorial
+$ cd bootstrap-exercises-tutorial
+```
+
+Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+
+3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
+
+```sh
+$ npm i jest@24.8.0 -g
+$ learnpack start
+```
+
+Note: The xercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
 # How are the exercises organized?
 
