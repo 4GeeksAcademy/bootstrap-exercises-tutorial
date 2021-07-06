@@ -1,11 +1,14 @@
 # `08` Formularios de Bootstrap
 
-Usa los estilos de formulario de Bootstrap para recrear exactamente el mismo formulario de inicio de sesión:
+## 📝 Instructions:
+
+1. Usa los estilos de formulario de Bootstrap para recrear exactamente el mismo formulario de inicio de sesión:
 
 ![Example Image](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/.learn/assets/bootstrap08.png?raw=true)
 
-## 💡Pista:
-Para hacer este ejercicio, debe usar la documentación de Bootstrap:
+## 💡 Pista:
+
+Para hacer este ejercicio usa la documentación de Bootstrap:
 
 ###### Formularios
 https://getbootstrap.com/docs/4.3/components/forms/#overview

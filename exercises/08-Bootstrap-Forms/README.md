@@ -1,10 +1,13 @@
 # `08` Bootstrap Forms
 
-Use Bootstrap form styles to recreate this exact same login form:
+## 📝 Instructions:
+
+1. Use Bootstrap form styles to recreate this exact same login form:
 
 ![Example Image](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/.learn/assets/bootstrap08.png?raw=true)
 
 ## 💡Hint:
+
 To do this exercise you need to use the Bootstrap documentation:
 
 ###### Forms

@@ -13,7 +13,6 @@ https://getbootstrap.com/docs/4.3/components/navs/
 
 ## 📝 Instructions:
 
-
 1. **Build** and then **Preview** the exercise.
 
 2. Apply the classes to the code just like this example: https://getbootstrap.com/docs/4.3/components/navs/#base-nav
