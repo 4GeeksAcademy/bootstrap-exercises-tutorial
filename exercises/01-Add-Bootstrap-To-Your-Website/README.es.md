@@ -1,8 +1,8 @@
 # `01` Agrega Bootstrap a tu sitio web
 
-Hay dos formas de agregar Bootstrap a tu sitio web: Remoto o Local (como cualquier otro archivo CSS), la única diferencia será la ruta URL que especifiques en la etiqueta <link> (para los archivos .CSS de Bootstrap) o la etiqueta <script> (para los archivos .JS de Bootstrap).
+Hay dos formas de agregar Bootstrap a tu sitio web: **Remoto** o **Local** (como cualquier otro archivo CSS), la única diferencia será la ruta URL que especifiques en la etiqueta <link> (para los archivos .CSS de Bootstrap) o la etiqueta <script> (para los archivos .JS de Bootstrap).
 
-Así es como se realiza una importación remota de Bootstrap CSS:
++ Así es como se realiza una importación **remota** de Bootstrap CSS:
 
 ```html
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -10,17 +10,21 @@ Así es como se realiza una importación remota de Bootstrap CSS:
 
 ```
 
+### :mag_right: Importante:
 
-Nota: No te preocupes por las propiedades como "integrity" y "crossdomain", son necesarias por razones de seguridad.
+ No te preocupes por las propiedades como `integrity` y `crossdomain`, son necesarias por razones de seguridad.
 
-Así es como agrega bootstrap desde un archivo local (que está en su lugar de trabajo):
++ Así es como agrega bootstrap desde un archivo **local** (que está en su lugar de trabajo):
 
 ```html
 <link href="camino/hacia/tu/archivo" rel="stylesheet">
 ```
 
+### :mag_right: Importante
 
-Nota: es una buena idea asegurarse de que tu archivo exista en esa URL, puedes probarlo abriendo una nueva pestaña del navegador y pegando la ruta en la URL del navegador (verás el contenido del archivo en tu pantalla).
+Es buena idea asegurarse de que tu archivo exista en esa URL, puedes probarlo abriendo una nueva pestaña del navegador y pegando la ruta en la URL del navegador (verás el contenido del archivo en tu pantalla).
+
+
 
 Bootstrap se compone de 2 archivos: la hoja de estilo CSS y el código fuente Javascript.
 
@@ -28,26 +32,32 @@ La hoja de estilos CSS de Bootstrap se pega en la etiqueta <head> antes que cual
 
 Las etiquetas <link> del código fuente de Javascript se pegan justo antes de la etiqueta de cierre </body>.
 
-Para más información:
+
+### Para más información:
+
 https://getbootstrap.com/docs/4.0/getting-started/introduction/
+
 
 ## 📝 Instrucciones:
 
-
 1. Agrega estos enlaces a tu archivo para importar Bootstrap con éxito:
 
-Hoja de estilos CSS Bootstrap:
++ Hoja de estilos CSS Bootstrap:
 
 ```html
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
 ```
-Código fuente Javascript:
+
++ Código fuente Javascript:
 
 ```html
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 ```
+
+### :bulb: Pista:
+
 El anchor (enlace) debe ser un botón rojo si todo salió bien.
 

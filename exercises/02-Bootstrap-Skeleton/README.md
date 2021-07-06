@@ -15,6 +15,7 @@ When using Bootstrap, you have to wrap all of your content within the following 
 <div class="container"></div>
 ```
 OR
+
 ```html
 <div class="container-fluid"></div>
 ```
@@ -22,15 +23,18 @@ OR
 
 ## 📝 Instructions:
 
-
 1. Link the Bootstrap CSS Stylesheet with the document using the **link** tag you find above.
-2. Wrap the content of the website within a div with a **container** class.
+
+2. Wrap the content of the website within a `div` with a **container** class.
+
 3. **Build** and then **Preview** the exercise and compare the differences.
+
 4. Now change the class of the div you've just created to **container-fluid**.
+
 5. **Build** and then **Preview** again and compare the differences.
 
 
-## 💡Hint:
+## :mag_right: Important:
 
-To understand the difference between both **container** classes, you have to make the div container smaller and bigger. Notice how there are no margins for the **container** class; whereas the content in the **container-fluid** class spans through all the container
+To understand the difference between both **container** classes, you have to make the `div` container smaller and bigger. Notice how there are no margins for the **container** class; whereas the content in the **container-fluid** class spans through all the container
 
