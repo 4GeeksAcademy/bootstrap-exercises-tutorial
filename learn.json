@@ -10,5 +10,10 @@
     "skills": ["bootstrap", "html-layouts", "css-styling"],
     "technolgy": "bootstrap",
     "video-solutions": false,
-    "graded": true
+    "graded": true,
+    "config": {
+        "editor": {
+            "version": "1.0.68"
+        }
+    }
 }
