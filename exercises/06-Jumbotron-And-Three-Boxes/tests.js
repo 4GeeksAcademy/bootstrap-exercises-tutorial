@@ -76,7 +76,7 @@ describe('1. All the rules to create the jumbotron should be applied', function 
         // we can read from the source code
         // console.log(html.toString());
 
-        expect(jumboDiv[2].nodeName).toBe('A');
+        expect(jumboDiv[2].nodeName).toBe('BUTTON');
         expect(jumboDiv[2].classList.contains("btn")).toBeTruthy();
         expect(jumboDiv[2].classList.contains("btn-lg")).toBeTruthy();
         expect(jumboDiv[2].classList.contains("btn-primary")).toBeTruthy();
@@ -122,7 +122,7 @@ describe('2. All the rules to create the second row should be applied', function
             console.log("Loop:", t[i].innerHTML)
             if (t[i].innerHTML.toString().indexOf(`<h2>Heading</h2>`)>-1) {hTemp=true}
             if (t[i].innerHTML.toString().indexOf(`<p>`)>-1) {pTemp=true}
-            if (t[i].innerHTML.toString().indexOf(`<a`)>-1) {aTemp=true}
+            if (t[i].innerHTML.toString().indexOf(`<button`)>-1) {aTemp=true}
 
         }
         expect(t.length).toBe(3)
@@ -155,65 +155,4 @@ describe('2. All the rules to create the second row should be applied', function
             } expect(temp).toBeTruthy();
         }
     })
-    //     console.log("Jumbo:", contentDiv[1].children)
-    //     // we can read from the source code
-    //     // console.log(html.toString());
-    //     // expect(jumboDiv[0].nodeName).toBe('H1');
-    //     // expect(jumboDiv[1].nodeName).toBe('P');
-    //     // expect(jumboDiv[2].nodeName).toBe('A');
-    //     // expect(jumboDiv[2].classList.contains("btn")).toBeTruthy();
-    //     // expect(jumboDiv[2].classList.contains("btn-lg")).toBeTruthy();
-    //     // expect(jumboDiv[2].classList.contains("btn-primary")).toBeTruthy();
-    // });
-    // it('The div tag should contains the class container-fluid', function () {
-
-    //     // we can read from the source code
-    //     // console.log(html.toString());
-    //     const divTag=document.querySelector("div");
-    //     expect(divTag.classList.contains("container-fluid")).toBeTruthy();
-
-
-    // });
-    // it('The div tag should contains a row', function () {
-    //     let divContent=document.getElementsByTagName("div")[0].innerHTML
-    //     // we can read from the source code
-    //     // console.log(html.toString());
-    //     expect(divContent.toString().indexOf(`<div class="row">`)>-1).toBeTruthy();
-    //     // expect(divContent.toString().indexOf(`<p>I can't believe that bootstap is so easy, now HTML and CSS are a simple but very usefull technology.</p>`)>-1).toBeTruthy();
-    // });
-    // it('The row should contains 2 columns with 2 and 10 slots', function () {
-    //     let rowContent=document.querySelector(".row").children
-    //     // we can read from the source code
-    //     // console.log(html.toString());
-    //     console.log("divCont:", rowContent[0].classList[0])
-    //     expect(rowContent[0].classList[0]).toBe("col-2")
-    //     expect(rowContent[1].classList[0]).toBe("col-10")
-    // });
-    // it('The left column should contains a nav with anchor tags with class nav-link', function () {
-    //     let navContent=document.querySelector(".col-2").querySelector("nav")
-    //     console.log("nav", navContent[0])
-    //     expect(navContent.classList.contains("nav")).toBeTruthy();
-    //     expect(navContent.classList.contains("flex-column")).toBeTruthy();
-
-    // });
-    // it('The right column should contains a jumbotron with py-2 class', function () {
-    //     let rightContent=document.querySelector(".col-10").querySelector(".jumbotron")
-    //     expect(rightContent.classList.contains("jumbotron")).toBeTruthy();
-    //     expect(rightContent.classList.contains("py-2")).toBeTruthy();
-
-    // });
-    // it('The jumbotron should contains an H4, a p and a button ', function () {
-    //     let jumbotron=document.querySelector(".jumbotron").innerHTML
-    //     console.log("jumbo", jumbotron)
-    //     expect(jumbotron.toString().indexOf(`<h4>Hello!</h4>`)>-1).toBeTruthy();
-    //     expect(jumbotron.toString().indexOf(`<p`)>-1).toBeTruthy();
-    //     expect(jumbotron.toString().indexOf(`<a`)>-1).toBeTruthy();
-    // });
-    // it('The button in the jumbotron should be blue and medium size', function () {
-    //     let rightContent=document.querySelector(".col-10").querySelector(".jumbotron").querySelector("a")
-    //     expect(rightContent.classList.contains("btn")).toBeTruthy();
-    //     expect(rightContent.classList.contains("btn-primary")).toBeTruthy();
-    //     expect(rightContent.classList.contains("btn-md")).toBeTruthy();
-
-    // });
 });
