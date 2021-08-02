@@ -9,16 +9,15 @@ It's not only aesthetics, each style is meant to serve a specific purpose in you
 
 ### More on Bootstrap buttons:
 
-- https://getbootstrap.com/docs/4.3/components/buttons/
-- https://getbootstrap.com/docs/4.3/content/tables/#striped-rows
+- https://getbootstrap.com/docs/5.0/components/buttons/
+- https://getbootstrap.com/docs/5.0/content/tables/#striped-rows
 
 ## 📝 Instructions:
 
 1. Please replicate this exact same image using the Bootstrap elements: 
 
 - Button, 
-- Alert, 
-- Glyphicon and 
+- Alert and 
 - table (and of course, rows and cols for the layout).
 
 ![Example Image](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/.learn/assets/1509928996281_e5796b115653b0ecb1028ad585b7ff8b.png?raw=true)

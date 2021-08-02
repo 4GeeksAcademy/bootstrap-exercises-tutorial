@@ -11,9 +11,9 @@
 To do this exercise you need to use the Bootstrap documentation:
 
 ###### Forms
-https://getbootstrap.com/docs/4.3/components/forms/#overview
+https://getbootstrap.com/docs/5.0/forms/overview/#overview
 
 ###### Buttons
-- https://getbootstrap.com/docs/4.3/components/buttons/#examples
-- https://getbootstrap.com/docs/4.3/components/buttons/#sizes
-- How to use cards and card-layouts: https://getbootstrap.com/docs/4.3/components/card/#card-layout
+- https://getbootstrap.com/docs/5.0/components/buttons/#examples
+- https://getbootstrap.com/docs/5.0/components/buttons/#sizes
+- How to use `cards`: https://getbootstrap.com/docs/5.0/components/card/

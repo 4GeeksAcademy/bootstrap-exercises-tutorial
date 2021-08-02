@@ -6,14 +6,14 @@ En este caso, tenemos el típico **ul** necesario para crear un menú, pero sin 
 
 ### Más información sobre navs:
 
-https://getbootstrap.com/docs/4.3/components/navs/
+https://getbootstrap.com/docs/5.0/components/navs-tabs/
 
 
 ## 📝 Instrucciones:
 
 1. **Compila** y luego ve la **Vista previa (Preview)** del ejercicio.
 
-2. Aplica las clases al código como en este ejemplo: https://getbootstrap.com/docs/4.3/components/navs/#base-nav.
+2. Aplica las clases al código como en este ejemplo: https://getbootstrap.com/docs/5.0/components/navs-tabs/#base-nav
 
 3. **Compila** y luego **Vista previa (Preview)** del ejercicio.
 

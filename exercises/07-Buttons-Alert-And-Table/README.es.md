@@ -9,16 +9,15 @@ No es solo estética, cada estilo está destinado a servir un propósito especí
 
 ### Más información sobre los botones de Bootstrap:
 
-- https://getbootstrap.com/docs/4.3/components/buttons/
-- https://getbootstrap.com/docs/4.3/content/tables/#striped-rows
+- https://getbootstrap.com/docs/5.0/components/buttons/
+- https://getbootstrap.com/docs/5.0/content/tables/#striped-rows
 
 ## 📝 Instrucciones:
 
 Replica exactamente esta misma imagen utilizando los elementos de Bootstrap: 
 
 - botón (Button),
-- Alerta (Alert), 
-- Glyphicon y
+- Alerta (Alert) y
 - Tabla (y, por supuesto, filas y columnas para el diseño).
 
 ![Example Image](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/.learn/assets/1509928996281_e5796b115653b0ecb1028ad585b7ff8b.png?raw=true)
