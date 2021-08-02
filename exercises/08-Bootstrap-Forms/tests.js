@@ -20,7 +20,7 @@ describe("All the tests should pass", function () {
 
         let meta1=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta c")
         let meta2=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta n")
-        let Bootstraplink=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf(`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">`)
+        let Bootstraplink=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf(`<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">`)
         let link=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<link")
         let title=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<title")
         expect(meta1).not.toBe(-1)
@@ -33,9 +33,6 @@ describe("All the tests should pass", function () {
 
     it("The styles.css file should be empty", function () {
         expect(css.toString()==="").toBeTruthy();
-    });
-    it("Do not use any inline styles, just use the bootstrap classes for styling", function () {
-        expect(html.toString().match(/style(\s*)=(\s*)["']/)).toBeFalsy();
     });
 
 });
@@ -55,23 +52,22 @@ describe("1. You should use a main container with a row and 1 column", function 
         // console.log("body", myBody[0].classList[0])
         expect(myBody.length).toBe(1);
         expect(myBody[0].nodeName).toBe("DIV");
-        expect(myBody[0].classList[0]).toBe("container");
+        expect(myBody[0].classList[0]).toBe("container-fluid");
 
     })
     it("You should have a row inside the main container", function () {
-        let myContainerRow=document.querySelector(".container").children
+        let myContainerRow=document.querySelector(".container-fluid").children
         // console.log("container", myContainerRow)
         expect(myContainerRow.length).toBe(1);
         expect(myContainerRow[0].nodeName).toBe("DIV");
         expect(myContainerRow[0].classList[0]).toBe("row");
     })
-    it("The row should contain 1 centered column with 6 slots, gray background and rounded corners ", function () {
-        let myColumn=document.querySelector("body").querySelector(".container").querySelector(".row").children
+    it("The row should contain 1 centered column with a card, gray background and rounded corners ", function () {
+        let myColumn=document.querySelector("body").querySelector(".container-fluid").querySelector(".row").children
         // console.log("columns", myColumn)
         expect(myColumn.length).toBe(1);
         expect(myColumn[0].nodeName).toBe("DIV");
-        expect(myColumn[0].classList.contains("col-6")).toBeTruthy();
-        expect(myColumn[0].classList.contains("m-auto")).toBeTruthy();
+        expect(myColumn[0].classList.contains("card")).toBeTruthy();
         expect(myColumn[0].classList.contains("bg-secondary")).toBeTruthy();
         expect(myColumn[0].classList.contains("rounded")).toBeTruthy();
     })
@@ -91,7 +87,7 @@ describe("2. You should replicate the same design", function () {
         jest.resetModules();
     });
     it("The first element should be an H2 tag with the same text as the example", function () {
-        let title=document.querySelector(".row").querySelector(".col-6").children
+        let title=document.querySelector(".row").querySelector(".card").children
         console.log("title:", title[0].nodeName)
         expect(title[0].nodeName).toBe("H2");
         expect(title[0].innerHTML).toBe("Please login");
@@ -109,19 +105,17 @@ describe("2. You should replicate the same design", function () {
             jest.resetModules();
         });
         it("You should wrap the all the elements inside a FORM tag", function () {
-            let form=document.querySelector(".col-6").querySelector("form").children
+            let form=document.querySelector(".card").querySelector("form").children
             console.log("form:", form)
             expect(form.length).toBe(4);
         })
         it("The FORM tag should contain the 4 elements in the example", function () {
-            let form=document.querySelector(".col-6").querySelector("form").children
+            let form=document.querySelector(".card").querySelector("form").children
             // THE NEXT CODE SHOULD BE WRAP IN ONE LOOP
             expect(form[0].nodeName).toBe("DIV");
-            expect(form[0].classList.contains("form-group")).toBeTruthy();
             expect(form[1].nodeName).toBe("DIV");
-            expect(form[1].classList.contains("form-group")).toBeTruthy();
             expect(form[2].nodeName).toBe("DIV");
-
+            expect(form[2].classList.contains("form-check")).toBeTruthy();
             expect(form[3].nodeName).toBe("BUTTON");
 
         })
@@ -139,18 +133,18 @@ describe("2. You should replicate the same design", function () {
             jest.resetModules();
         });
         it("The email input should be like the example", function () {
-            let form=document.querySelector(".col-6").querySelector("form").children
+            let form=document.querySelector(".card").querySelector("form").children
             // console.log("$$$:", form[0].children[0].attributes[0].nodeValue)
-            expect(form[0].children[0].attributes[0].nodeValue).toBe("email");
-            expect(form[0].children[0].classList.contains("form-control")).toBeTruthy();
+            expect(form[0].querySelector("input").type).toBe("email");
+            expect(form[0].querySelector("input").classList.contains("form-control")).toBeTruthy();
             // expect(form[2].classList.contains("form-group")).toBeTruthy();
             // expect(form[2].classList.contains("form-check")).toBeTruthy();
         })
         it("The password input should be like the example", function () {
-            let form=document.querySelector(".col-6").querySelector("form").children
+            let form=document.querySelector(".card").querySelector("form").children
             // console.log("$$$:", form[0].children[0].attributes[0].nodeValue)
-            expect(form[1].children[0].attributes[0].nodeValue).toBe("password");
-            expect(form[1].children[0].classList.contains("form-control")).toBeTruthy();
+            expect(form[1].querySelector("input").type).toBe("password");
+            expect(form[1].querySelector("input").classList.contains("form-control")).toBeTruthy();
         })
     })
     describe("2d. You should replicate the same checkbox", function () {
@@ -165,13 +159,11 @@ describe("2. You should replicate the same design", function () {
             jest.resetModules();
         });
         it("The DIV should contain the correct classes", function () {
-            let form=document.querySelector(".col-6").querySelector("form").children
-
-            expect(form[2].classList.contains("form-group")).toBeTruthy();
+            let form=document.querySelector(".card").querySelector("form").children
             expect(form[2].classList.contains("form-check")).toBeTruthy();
         })
         it("The Label should be like the design", function () {
-            let form=document.querySelector(".col-6").querySelector("form").children
+            let form=document.querySelector(".card").querySelector("form").children
             expect(form[2].children[0].classList.contains("form-check-input")).toBeTruthy();
             // expect(form[2].children[0].attributes)
             console.log("attr:", form[2].children[0].attributes[0].nodeValue)
@@ -193,11 +185,9 @@ describe("2. You should replicate the same design", function () {
             jest.resetModules();
         });
         it("The BUTTON should be 100% width and light blue", function () {
-            let form=document.querySelector(".col-6").querySelector("form").children
+            let form=document.querySelector(".card").querySelector("form").children
             // THE NEXT CODE SHOULD BE WRAP IN ONE LOOP
             expect(form[3].classList.contains("btn")).toBeTruthy();
-            expect(form[3].classList.contains("btn-block")).toBeTruthy();
-            expect(form[3].classList.contains("btn-info")).toBeTruthy();
             // expect(form[0].nodeName).toBe("DIV");
             // expect(form[0].classList.contains("form-group")).toBeTruthy();
             // expect(form[1].nodeName).toBe("DIV");

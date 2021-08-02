@@ -11,9 +11,9 @@
 Para hacer este ejercicio usa la documentación de Bootstrap:
 
 ###### Formularios
-https://getbootstrap.com/docs/4.3/components/forms/#overview
+https://getbootstrap.com/docs/5.0/forms/overview/#overview
 
 ###### Botones
-- https://getbootstrap.com/docs/4.3/components/buttons/#examples
-- https://getbootstrap.com/docs/4.3/components/buttons/#sizes
-- Como utilizar `cards`: https://getbootstrap.com/docs/4.3/components/card/#card-layout
+- https://getbootstrap.com/docs/5.0/components/buttons/#examples
+- https://getbootstrap.com/docs/5.0/components/buttons/#sizes
+- Cómo utilizar `cards`: https://getbootstrap.com/docs/5.0/components/card/

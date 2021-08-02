@@ -20,7 +20,7 @@ describe("All the tests should pass", function () {
 
         let meta1=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta c")
         let meta2=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta n")
-        let Bootstraplink=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf(`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">`)
+        let Bootstraplink=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf(`<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">`)
         let link=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<link")
         let title=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<title")
         expect(meta1).not.toBe(-1)
@@ -39,30 +39,22 @@ describe("All the tests should pass", function () {
     });
 
 });
-describe('1. All the rules to create the jumbotron should be applied', function () {
+describe('1. All the rules to create the first section should be applied', function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
     });
     afterEach(() => {jest.resetModules();});
-    it('The Jumbotron should be inside the first row', function () {
-        let jumboDiv=document.querySelector(".container-fluid").querySelector(".row").querySelector(".jumbotron")
-        console.log("Jumbo:", jumboDiv.classList)
-        expect(jumboDiv.classList.contains("jumbotron")).toBeTruthy();
-        // we can read from the source code
-        // console.log(html.toString());
-
-    });
-    it('The Jumbotron first element should be an H1 tag', function () {
-        let jumboDiv=document.querySelector(".container-fluid").querySelector(".row").querySelector(".jumbotron").children
+    it(`The first element of the first section should be an H1 tag`, function () {
+        let jumboDiv=document.querySelector(".container-fluid").querySelector(".row").children
         console.log("Jumbo:", jumboDiv[2].nodeName)
         // we can read from the source code
         // console.log(html.toString());
         expect(jumboDiv[0].nodeName).toBe('H1');
 
     });
-    it('The Jumbotron second element should be a P tag', function () {
-        let jumboDiv=document.querySelector(".container-fluid").querySelector(".row").querySelector(".jumbotron").children
+    it(`The second element of the first section should be a P tag`, function () {
+        let jumboDiv=document.querySelector(".container-fluid").querySelector(".row").children
         console.log("Jumbo:", jumboDiv[2].nodeName)
         // we can read from the source code
         // console.log(html.toString());
@@ -70,15 +62,14 @@ describe('1. All the rules to create the jumbotron should be applied', function 
         expect(jumboDiv[1].nodeName).toBe('P');
 
     });
-    it('The Jumbotron third element should be an anchor tag with a large blue button class ', function () {
-        let jumboDiv=document.querySelector(".container-fluid").querySelector(".row").querySelector(".jumbotron").children
+    it(`The second element of the first section should be a button tag with a blue button class`, function () {
+        let jumboDiv=document.querySelector(".container-fluid").querySelector(".row").children
         console.log("Jumbo:", jumboDiv[2].nodeName)
         // we can read from the source code
         // console.log(html.toString());
 
         expect(jumboDiv[2].nodeName).toBe('BUTTON');
         expect(jumboDiv[2].classList.contains("btn")).toBeTruthy();
-        expect(jumboDiv[2].classList.contains("btn-lg")).toBeTruthy();
         expect(jumboDiv[2].classList.contains("btn-primary")).toBeTruthy();
 
     });

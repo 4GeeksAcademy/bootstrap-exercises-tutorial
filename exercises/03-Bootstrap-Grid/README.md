@@ -3,7 +3,7 @@
 Now let's talk about the grid - as you know, every row has **12 boxes** with **~8%** of the website's width, a column can take from **1 to 12 slots of width**, and all within the same row cannot add up to more than **12 slots**.
 
 
-With Bootstrap 4, you simply have to add the **.col** class and it will automatically distribute the columns evenly throughout the 12 slots within the row.
+With Bootstrap 5, you simply have to add the **.col** class and it will automatically distribute the columns evenly throughout the 12 slots within the row.
 
 If you want a column to take up a specific number of slots, you must specify it in the **class** property of the **div** that holds the column.
 
@@ -17,12 +17,11 @@ For example:
 ```
 
 
-In Bootstrap 4, the `justify-content` property is added to the classes to move the columns into the desired position.
+In Bootstrap 5, the `justify-content` property is added to the classes to move the columns into the desired position.
 
 ###  More information on the grid:
 
-https://tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid
-
+https://getbootstrap.com/docs/5.0/layout/grid/
 
 
 ## 📝 Instructions:
@@ -32,7 +31,7 @@ https://tutorialzine.com/2016/11/boostrap-4-regular-vs-flex-grid
 
 2. Add a third row with only one column of 12 slots.
 
-3. Change the `background-color` of this last row to `red`.
+3. Change the `background-color` of the `col-12` to `red`, and add your name inside of the `<div>`.
 
 4. Change the main **container** to **container-fluid**
 

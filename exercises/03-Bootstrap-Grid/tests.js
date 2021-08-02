@@ -20,7 +20,7 @@ describe("All the tests should pass", function () {
 
         let meta1=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta c")
         let meta2=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta n")
-        let Bootstraplink=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf(`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">`)
+        let Bootstraplink=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf(`<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">`)
         let link=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<link")
         let title=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<title")
         expect(meta1).not.toBe(-1)
@@ -58,10 +58,10 @@ describe('1. All the rules in the instructions should be applied', function () {
         let ndRow=document.querySelectorAll(".row")[1].innerHTML
         // we can read from the source code
         // console.log(html.toString());
-
-        expect(ndRow.toString().indexOf(`<div class="col-4">Third col</div>`)>-1).toBeTruthy();
-        expect(ndRow.toString().indexOf(`<div class="col-4">Fourth col</div>`)>-1).toBeTruthy();
-        expect(ndRow.toString().indexOf(`<div class="col-4">Fourth col</div>`)>-1).toBeTruthy();
+        
+        expect(ndRow.toString().indexOf(`<div class="col">Third col</div>`)>-1).toBeTruthy();
+        expect(ndRow.toString().indexOf(`<div class="col">Fourth col</div>`)>-1).toBeTruthy();
+        expect(ndRow.toString().indexOf(`<div class="col">Fifth col</div>`)>-1).toBeTruthy();
         expect(ndRow.toString().indexOf(`<div`)>-1).toBeTruthy();
     });
     it('You should create a third row with one column of 12 slot and the background red', function () {

@@ -10,5 +10,4 @@
 Use 1 main container with 2 rows. The first row contains the jumbotron and the second row contains 3 columns.
 
 Check the docs:
-- https://getbootstrap.com/docs/4.3/components/jumbotron
-- https://getbootstrap.com/docs/4.3/utilities/spacing/
+- https://getbootstrap.com/docs/5.0/utilities/spacing/
