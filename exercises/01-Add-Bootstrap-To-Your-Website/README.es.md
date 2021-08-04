@@ -12,7 +12,7 @@ Hay dos formas de agregar Bootstrap a tu sitio web: **Remoto** o **Local** (como
 
  No te preocupes por las propiedades como `integrity` y `crossdomain`, son necesarias por razones de seguridad.
 
-+ Así es como agrega bootstrap desde un archivo **local** (que está en su lugar de trabajo):
+Así es como agrega bootstrap desde un archivo **local** (que está en su lugar de trabajo):
 
 ```html
 <link href="camino/hacia/tu/archivo" rel="stylesheet">
