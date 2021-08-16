@@ -7,7 +7,7 @@
 ![Example Image](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/.learn/assets/1509928737623_bb6c18c0353c4f29b8bf62f7bcfabdf2.png?raw=true)
 
 ## 💡Hint:
-Use 1 main container with 2 rows. The first row contains the jumbotron and the second row contains 3 columns.
+Use 1 main container with 2 rows. The first row contains an h1, a paragraph and a button, and the second row contains 3 columns.
 
 Check the docs:
 - https://getbootstrap.com/docs/5.0/utilities/spacing/

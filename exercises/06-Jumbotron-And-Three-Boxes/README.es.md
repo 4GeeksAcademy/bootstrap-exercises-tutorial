@@ -8,7 +8,7 @@
 
 ## 💡Pista:
 
-Usa 1 contenedor principal con 2 filas. La primera fila contiene el jumbotron y la segunda fila contiene 3 columnas.
+Usa 1 contenedor principal con 2 filas. La primera fila contiene el h1, el párrafo y el botón, y la segunda fila contiene 3 columnas.
 
 Revisa estos documentos:
 - https://getbootstrap.com/docs/5.0/utilities/spacing/
