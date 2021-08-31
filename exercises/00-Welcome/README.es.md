@@ -5,9 +5,13 @@ Mi nombre es Alejandro Sanchez @alesanchezr. Estoy realmente emocionado de tener
 Durante este curso vas a aprender los siguientes conceptos:
 
 1. Como aplicar Bootstrap a tu sitio web (website).
+
 2. Seleccionar Elementos de HTML de tu website para aplicarle los estilos de Bootstrap.
+
 3. Aplicar a esos elementos las clases de Bootstrap.
+
 4. Usa las reglas más populares de Bootstrap.
+
 5. Aprender los trucos más populares de Bootstrap.
 
 Como habrás notado, HTML solo te permite crear website básicos. Nadie quiere ver un website blanco con algún horrible texto en él. Entonces es tiempo de aprender sobre que trata Bootstrap! Aprender Bootstrap para hacer bonito tu website. Vamos a hacerlo brillar!

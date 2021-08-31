@@ -34,5 +34,5 @@ OR
 
 ## :mag_right: Important:
 
-To understand the difference between both **container** classes, you have to make the `div` container smaller and bigger. Notice how there are no margins for the **container** class; whereas the content in the **container-fluid** class spans through all the container
+To understand the difference between both `container` classes, you have to make the `div` container smaller and bigger. Notice how there are no margins for the `container` class; whereas the content in the `container-fluid` class spans through all the container
 

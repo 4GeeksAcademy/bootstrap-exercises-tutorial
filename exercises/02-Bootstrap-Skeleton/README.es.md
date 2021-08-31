@@ -7,7 +7,7 @@ Si quieres importar Bootstrap a tu sitio web, puedes usar esta URL pública que 
 ```
 
 
-Al usar Bootstrap, debes incluir todo su contenido dentro de las siguientes clases **container**:
+Al usar Bootstrap, debes incluir todo su contenido dentro de las siguientes clases `container`:
 
 ```html
 <div class="container"></div>
@@ -22,22 +22,22 @@ Al usar Bootstrap, debes incluir todo su contenido dentro de las siguientes clas
 ## 📝 Instrucciones:
 
 
-1. Vincula el hoja de estilos CSS de Bootstrap con el documento usando la etiqueta **link** que encuentras arriba.
+1. Vincula el hoja de estilos CSS de Bootstrap con el documento usando la etiqueta `link` que encuentras arriba.
 
-2. Introduce el contenido del sitio web dentro de un `div` con una clase **container**.
+2. Introduce el contenido del sitio web dentro de un `div` con una clase `container`.
 
 3. **Compila** y luego **Vista previa** del ejercicio y compara las diferencias.
 
-4. Ahora cambia la clase del `div` que acabas de crear a **container-fluid**.
+4. Ahora cambia la clase del `div` que acabas de crear a `container-fluid`.
 
 5. **Compila** y luego **Vista previa** del ejercicio y compara las diferencias.
 
 
 ## :mag_right: Importante:
 
-Para comprender la diferencia entre ambas clases **container**, debes hacer que el `div` del **container** (el azul, en la parte inferior izquierda de la pantalla) sea más grande. 
+Para comprender la diferencia entre ambas clases `container`, debes hacer que el `div` del `container` (el azul, en la parte inferior izquierda de la pantalla) sea más grande. 
 
-La clase **container** no tiene márgenes (margins); mientras que en la clase **container-fluid** el contenido abarca todo el container.
+La clase `container` no tiene márgenes (margins); mientras que en la clase `container-fluid` el contenido abarca todo el container.
 
 
 
