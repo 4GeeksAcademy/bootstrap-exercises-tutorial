@@ -4,7 +4,7 @@
 
 1. Replicate this exact design:
 
-![Example Image](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/.learn/assets/1509911882903_9a14b4fa806a07fbbff1abb2143b7799.png?raw=true)
+![Example Image](../../.learn/assets/1509911882903_9a14b4fa806a07fbbff1abb2143b7799.png?raw=true)
 
 2. The first column should be a `col-2` and the second one should be `col-10`.
 
@@ -14,7 +14,9 @@
 
 Create a row with two columns. The column on the left side must have a sidebar menu inside.
 
-**These docs may be helpful:**
+### :mag_right: Important:
+
+Check this documentation:
 
 - https://getbootstrap.com/docs/5.0/components/navs-tabs/#vertical
 - https://getbootstrap.com/docs/5.0/layout/grid/

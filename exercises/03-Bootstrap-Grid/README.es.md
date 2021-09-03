@@ -3,9 +3,9 @@
 Ahora hablemos de la grilla: como sabes, cada fila tiene **12 cajas** con un ancho de **~ 8%** del sitio web, una columna puede ocupar de **1 a 12 espacios** de ancho, y todos dentro de la misma fila no pueden sumar más de **12 espacios**.
 
 
-Con Bootstrap 5, simplemente tienes que agregar la clase **.Col** y distribuirá automáticamente las columnas de manera uniforme en los 12 espacios dentro de la fila.
+Con Bootstrap 5, simplemente tienes que agregar la clase `.col` y distribuirá automáticamente las columnas de manera uniforme en los 12 espacios dentro de la fila.
 
-Si deseas que una columna ocupe un número específico de espacios, debes especificarlo en la propiedad **class** del **div** que contiene la columna.
+Si deseas que una columna ocupe un número específico de espacios, debes especificarlo en la propiedad `class` del`div` que contiene la columna.
 
 Por ejemplo:
 
@@ -34,11 +34,11 @@ https://getbootstrap.com/docs/5.0/layout/grid/
 
 3. Cambia el color de fondo(`background-color`) del `col-12` a rojo(`red`), y agrega tu nombre adentro del `<div>`.
 
-4. Cambia el principal **container** a **container-fluid**
+4. Cambia el principal `container` a `container-fluid`
 
 ### Resultado esperado:
 
-![Example Image](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/.learn/assets/1509892918783_38dc765ee66d5d7e4258e43e5f5dde8d.png?raw=true)
+![Example Image](../../.learn/assets/1509892918783_38dc765ee66d5d7e4258e43e5f5dde8d.png?raw=true)
 
 ## 💡 Pista:
 
