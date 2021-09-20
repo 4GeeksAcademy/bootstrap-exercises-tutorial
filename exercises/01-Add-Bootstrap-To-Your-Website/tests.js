@@ -41,7 +41,7 @@ describe('1. The html code should contain the link tag and 3 Boostrap script tag
         let myBody=document.querySelector("body").children
         // console.log("body", myBody[0].classList[0])
         expect(myBody.length).toBe(3);
-        expect(myBody[0].nodeName).toBe("A");
+        expect(myBody[0].nodeName).toBe("BUTTON");
         // we can read from the source code
         // console.log(html.toString());
         expect(html.toString().indexOf(`<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>`)>-1).toBeTruthy();

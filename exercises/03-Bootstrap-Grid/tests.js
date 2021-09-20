@@ -62,7 +62,6 @@ describe('1. All the rules in the instructions should be applied', function () {
         expect(ndRow.toString().indexOf(`<div class="col">Third col</div>`)>-1).toBeTruthy();
         expect(ndRow.toString().indexOf(`<div class="col">Fourth col</div>`)>-1).toBeTruthy();
         expect(ndRow.toString().indexOf(`<div class="col">Fifth col</div>`)>-1).toBeTruthy();
-        expect(ndRow.toString().indexOf(`<div`)>-1).toBeTruthy();
     });
     it('You should create a third row with one column of 12 slot and the background red', function () {
         let rdRow=document.querySelectorAll(".row")[2].querySelector("div").classList.values()
