@@ -1,7 +1,6 @@
 const fs=require("fs");
 const path=require("path");
 const html=fs.readFileSync(path.resolve(__dirname, "./index.html"), "utf8");
-const css=fs.readFileSync(path.resolve(__dirname, "./styles.css"), "utf8");
 
 jest.dontMock("fs");
 
@@ -17,23 +16,19 @@ describe("All the tests should pass", function () {
         jest.resetModules();
     });
     it("You should not change or delete the existing elements in the head tag", function () {
+        let meta1 = document.querySelector('head').innerHTML.toString().indexOf("<meta c")
+        let meta2 = document.querySelector('head').innerHTML.toString().indexOf("<meta n")        
+        let title = document.querySelector('head').querySelector("title")
 
-        let meta1=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta c")
-        let meta2=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<meta n")
-        // let Bootstraplink=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf(`<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">`)
-        let link=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<link")
-        let title=document.getElementsByTagName('head')[0].innerHTML.toString().indexOf("<title")
         expect(meta1).not.toBe(-1)
         expect(meta2).not.toBe(-1)
-        expect(link).not.toBe(-1)
-        // expect(Bootstraplink).not.toBe(-1)
-        expect(title).not.toBe(-1)
-        expect(html.toString().indexOf(`<style`)>-1).toBeFalsy();
+        expect(title).toBeTruthy();
     })
 
-    it("The styles.css file should be empty", function () {
-        expect(css.toString()==="").toBeTruthy();
-    });
+    it("You should not use the style tag.", function (){
+        let style = document.querySelector('style')
+        expect(style).toBe(null)
+    })
 });
 describe('1. All the rules in the instructions should be applied', function () {
     beforeEach(() => {
@@ -43,41 +38,30 @@ describe('1. All the rules in the instructions should be applied', function () {
     afterEach(() => {jest.resetModules();});
 
     it('The head tag should contain the link tag for Bootstrap', function () {
-        let bodyContent=document.getElementsByTagName("head")[0].innerHTML
-        // we can read from the source code
-        // console.log(html.toString());
-        expect(bodyContent.toString().indexOf(`<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">`)>-1).toBeTruthy();
+        let head = document.querySelector("head").innerHTML
+        expect(head.toString().indexOf(`<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">`)>-1).toBeTruthy();
     });
-    it('The body should contain a div tag', function () {
-        let bodyContent=document.getElementsByTagName("body")[0].innerHTML
-        // we can read from the source code
-        // console.log(html.toString());
-        expect(bodyContent.toString().indexOf(`<div`)>-1).toBeTruthy();
+    
+    it('The body should contain a div tag with the class container-fluid', function () {
+        let div = document.querySelector("div")
+        expect(div).toBeTruthy();
+        expect(div.classList.contains("container-fluid")).toBeTruthy();
     });
+
     it('The div tag should wrap the existing h1 and p tags', function () {
-        let divContent=document.getElementsByTagName("div")[0].innerHTML
-        // we can read from the source code
-        // console.log(html.toString());
-        expect(divContent.toString().indexOf(`<h1>This is my first example using bootstrap</h1>`)>-1).toBeTruthy();
-        expect(divContent.toString().indexOf(`<p>I can't believe that bootstap is so easy, now HTML and CSS are a simple but very useful technology.</p>`)>-1).toBeTruthy();
-    });
-    it('The div tag should contain the class container-fluid', function () {
-
-        // we can read from the source code
-        // console.log(html.toString());
-        const divTag=document.querySelector("div");
-        expect(divTag.classList.contains("container-fluid")).toBeTruthy();
-
-
+        let h1 = document.querySelector("div").querySelector("h1")
+        let p = document.querySelector("div").querySelector("p")
+        expect(h1).toBeTruthy();
+        expect(p).toBeTruthy();
     });
 
-    // it('The div tag should contains the class bg-primary', function () {
+    it('The h1 should contain the same innerHTML', function(){
+        let h1 = document.querySelector("div").querySelector("h1").innerHTML
+        expect(h1).toBe("This is my first example using bootstrap")
+    })
 
-    //     // we can read from the source code
-    //     // console.log(html.toString());
-    //     const divTag=document.querySelector("div");
-    //     expect(divTag.classList.contains("bg-primary")).toBeTruthy();
-
-
-    // });
+    it('The p should contain the same innerHTML', function(){
+        let p = document.querySelector("div").querySelector("p").innerHTML
+        expect(p).toBe("I can't believe that bootstap is so easy, now HTML and CSS are a simple but very useful technology.")
+    })
 });

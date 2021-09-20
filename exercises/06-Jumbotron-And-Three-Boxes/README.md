@@ -8,7 +8,7 @@
 
 ## 💡Hint:
 
-+ Use 1 main container with 2 rows. The first row contains the jumbotron and the second row contains 3 columns.
++ Use 1 main container with 2 rows. The first row contains an h1, a paragraph and a button, and the second row contains 3 columns.
 
 ### :mag_right: Important:
 
