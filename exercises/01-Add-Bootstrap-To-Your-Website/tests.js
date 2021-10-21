@@ -14,10 +14,12 @@ describe("All the tests should pass", function () {
         jest.resetModules();
     });
     it("You should not change or delete the existing elements in the head tag", function () {
+        let head = document.querySelector('head')
+        expect(head).toBeTruthy();
 
-        let meta1=document.querySelector('head').innerHTML.toString().indexOf("<meta c")
-        let meta2=document.querySelector('head').innerHTML.toString().indexOf("<meta n")
-        let title=document.querySelector('head').querySelector("title")
+        let meta1 = head.innerHTML.toString().indexOf("<meta c")
+        let meta2 = head.innerHTML.toString().indexOf("<meta n")
+        let title = head.querySelector("title")
 
         expect(meta1).not.toBe(-1)
         expect(meta2).not.toBe(-1)
@@ -25,7 +27,7 @@ describe("All the tests should pass", function () {
     })
 });
 
-describe('1. The html code should contain the link tag and 3 Boostrap script tags', function () {
+describe('1. The html code should contain the link tag and 2 Boostrap script tags', function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
@@ -38,11 +40,9 @@ describe('1. The html code should contain the link tag and 3 Boostrap script tag
         expect(bodyContent.toString().indexOf(`<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">`)>-1).toBeTruthy();
     });
     it('The body should contain 2 script tags before the body closing tag', function () {
-        let myBody=document.querySelector("body").children
+        let scripts = document.querySelectorAll('script')
 
-        expect(myBody.length).toBe(3);
-        expect(myBody[0].nodeName).toBe("BUTTON");
-        expect(html.toString().indexOf(`<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>`)>-1).toBeTruthy();
-        expect(html.toString().indexOf(`<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>`)>-1).toBeTruthy();
+        expect(scripts[0].src).toBe("https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js")
+        expect(scripts[1].src).toBe("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js")
     });
 });
