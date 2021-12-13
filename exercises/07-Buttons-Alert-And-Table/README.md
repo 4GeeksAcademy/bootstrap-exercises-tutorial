@@ -20,7 +20,7 @@ It's not only aesthetics, each style is meant to serve a specific purpose in you
 - Alert and 
 - table (and of course, rows and cols for the layout).
 
-![Example Image]((../../.learn/assets/1509928996281_e5796b115653b0ecb1028ad585b7ff8b.png?raw=true)
+![Example Image](../../.learn/assets/1509928996281_e5796b115653b0ecb1028ad585b7ff8b.png?raw=true)
 
 ### :bulb: Hint:
 
