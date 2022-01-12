@@ -40,6 +40,7 @@ describe("All the tests should pass", function () {
 describe("1. You should use a main container with a row and 1 column", function () {
     beforeEach(() => {
         //here I import the HTML into the document
+    });
         afterEach(() => {
             jest.resetModules();
         });
@@ -170,4 +171,3 @@ describe("1. You should use a main container with a row and 1 column", function 
             expect(button.classList.contains("w-100") || button.classList.contains("col-12")).toBeTruthy();
         })
     });
-});
