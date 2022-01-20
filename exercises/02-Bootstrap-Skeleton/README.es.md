@@ -37,7 +37,7 @@ Al usar Bootstrap, debes incluir todo su contenido dentro de las siguientes clas
 
 Para comprender la diferencia entre ambas clases `container`, debes hacer que el `div` del `container` (el azul, en la parte inferior izquierda de la pantalla) sea más grande. 
 
-La clase `container` no tiene márgenes (margins); mientras que en la clase `container-fluid` el contenido abarca todo el container.
+La clase `container` tiene margin-left auto y margin-right auto para centrar el contenido; mientras que en la clase `container-fluid` el contenido abarca todo el ancho de la página.
 
 
 
