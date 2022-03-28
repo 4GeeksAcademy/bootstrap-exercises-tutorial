@@ -14,13 +14,18 @@
 ¡Hola! Soy Alejandro Sanchez @alesanchezr, muy emocionado de tenerte aquí! 🎉 😂 Aprender a codificar es difícil, ¡necesitas entrenamiento! Envíame un DM en twitter si tienes alguna pregunta. Aprenderás los siguientes conceptos:
 
 1. Cómo aplicar Bootstrap a tu sitio web.
+
 2. Seleccionar elementos HTML de su sitio web para aplicar los estilos de Bootstrap.
+
 3. Aplicar clases de Bootstrap a esos elementos.
-4. Use las reglas de Bootstrap más populares.
-5. Aprende los trucos de Bootstrap más populares.
+
+4. Uso de las reglas de Bootstrap más populares.
+
+5. Los trucos de Bootstrap más populares.
 
 
-#### Antes de empezar... hay otros tutoriales 
+#### Antes de empezar... hay otros tutoriales relacionados
+
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Aprende HTML</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Aprende CSS</a></li>
