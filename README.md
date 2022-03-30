@@ -14,27 +14,34 @@
 Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question. You'll be learning the following concepts:
 
 1. How to apply Bootstrap to your website.
+
 2. Selecting HTML Elements from your website to apply the Bootstrap styles to.
+
 3. Apply Bootstrap classes to those elements.
+
 4. Use the most popular Bootstrap Rules.
+
 5. Learn the most popular Bootstrap Tricks.
 
-### Before we start... other related tutorials
+#### Before we start... other related tutorials
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Learn HTML Forms</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a> ← your are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a>← 🔥 your are here now</li>
+  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
 </ol>
-
-<h2>One click installation:</h2>
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial.git)
+Complete selection of autograded CSS exercises, anyone interested in learning CSS!
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
 
-## Local installation
+## One click installation:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial)
+
+## Local installation:
 
 1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
 
@@ -59,9 +66,9 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-📝 Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
+Note: The exercises have automatic grading but its very rigid and string, my recomendation is to ignore the tests and use them only as a recomendation or you can get frustrated.
 
-## How are the React Tutorial Exercises organized?
+## How are the exercises organized?
 
 Each exercise is a small react application containing the following files:
 
@@ -69,12 +76,11 @@ Each exercise is a small react application containing the following files:
 2. **README.md:** contains exercise instructions.
 3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
-## Contributors for this React Exercises
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder)  💻 (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 🤓 
+(build-tutorial) ✅  (documentation) 📖
 
-This project follows the
-[all-contributors](https://github.com/kentcdodds/all-contributors)
-specification. Contributions of any kind are welcome!
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
