@@ -14,9 +14,13 @@
 Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question. You'll be learning the following concepts:
 
 1. How to apply Bootstrap to your website.
+
 2. Selecting HTML Elements from your website to apply the Bootstrap styles to.
+
 3. Apply Bootstrap classes to those elements.
+
 4. Use the most popular Bootstrap Rules.
+
 5. Learn the most popular Bootstrap Tricks.
 
 #### Before we start... other related tutorials
@@ -37,8 +41,7 @@ Complete selection of autograded CSS exercises, anyone interested in learning CS
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial)
 
-
-## Local installation
+## Local installation:
 
 1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
 
@@ -73,10 +76,11 @@ Each exercise is a small react application containing the following files:
 2. **README.md:** contains exercise instructions.
 3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
-## Contributors for this Exercises
+## Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) :computer: (idea) 🤔, (build-tests) :warning:, (pull-request-review) :eyes: (build-tutorial) :white_check_mark: (documentation) :book:
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder)  💻 (idea) 🤔, (build-tests) ⚠️ , (pull-request-review) 🤓 
+(build-tutorial) ✅  (documentation) 📖
 
 This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification. Contributions of any kind are welcome!
