@@ -23,7 +23,6 @@
 
 5. Los trucos de Bootstrap más populares.
 
-
 #### Antes de empezar... hay otros tutoriales relacionados
 
 <ol>
@@ -35,16 +34,16 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
-Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier interesado en aprender CSS!
 
+Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier interesado en aprender CSS!
 
 ## Instalación en un clic:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial.git)
 
-## Instalación manual 
+## Instalación local:
 
-1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 12+:
+1. Instala learnpack, el package manager para tutoriales de aprendizaje y el html compiler plugin para learnpack, asegúrate también de tener node.js 14+:
 
 
 ```
