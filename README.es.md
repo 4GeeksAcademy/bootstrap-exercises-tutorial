@@ -11,7 +11,9 @@
   </tr>
 </table>
 
-¡Hola! Soy Alejandro Sanchez @alesanchezr, muy emocionado de tenerte aquí! 🎉 😂 Aprender a codificar es difícil, ¡necesitas entrenamiento! Envíame un DM en twitter si tienes alguna pregunta. Aprenderás los siguientes conceptos:
+¡Hola! Soy Alejandro Sanchez @alesanchezr, muy emocionado de tenerte aquí! 🎉 😂 Aprender a codificar es difícil, ¡necesitas entrenamiento! Envíame un DM en twitter si tienes alguna pregunta. 
+
+## Aprenderás los siguientes conceptos:
 
 1. Cómo aplicar Bootstrap a tu sitio web.
 
