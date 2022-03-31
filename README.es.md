@@ -1,3 +1,4 @@
+<!-- hide -->
 <table>
   <tr>
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
@@ -13,6 +14,8 @@
 
 ¡Hola! Soy Alejandro Sanchez @alesanchezr, muy emocionado de tenerte aquí! 🎉 😂 Aprender a codificar es difícil, ¡necesitas entrenamiento! Envíame un DM en twitter si tienes alguna pregunta. 
 
+<!-- endhide -->
+
 ## Aprenderás los siguientes conceptos:
 
 1. Cómo aplicar Bootstrap a tu sitio web.
@@ -24,7 +27,7 @@
 4. Uso de las reglas de Bootstrap más populares.
 
 5. Los trucos de Bootstrap más populares.
-
+<!-- hide -->
 #### Antes de empezar... hay otros tutoriales relacionados
 
 <ol>
@@ -38,7 +41,7 @@
 </p>
 
 Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier interesado en aprender CSS!
-
+<!-- endhide -->
 ## Instalación en un clic:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial.git)
