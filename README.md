@@ -1,8 +1,9 @@
+# Bootstrap Exercises Tutorial at 4Geeks Academy
+<!-- hide -->
 <table>
   <tr>
     <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
     <td>
-      <h1 align="center"> Bootstrap Exercises Tutorial at 4Geeks Academy</h1>
       <img src="https://img.shields.io/github/last-commit/4geeksacademy/bootstrap-exercises" />
       <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
       <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
@@ -12,6 +13,7 @@
 </table>
 
 Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! DM me on twitter if you have any question. You'll be learning the following concepts:
+<!-- endhide -->
 
 1. How to apply Bootstrap to your website.
 
@@ -23,6 +25,7 @@ Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 �
 
 5. Learn the most popular Bootstrap Tricks.
 
+<!-- hide -->
 #### Before we start... other related tutorials
 <ol>
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
@@ -36,6 +39,7 @@ Complete selection of autograded CSS exercises, anyone interested in learning CS
 <p align="center">
   <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
 </p>
+<!-- endhide -->
 
 ## One click installation:
 
