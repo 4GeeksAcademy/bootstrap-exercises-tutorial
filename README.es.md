@@ -1,16 +1,9 @@
 <!-- hide -->
-<table>
-  <tr>
-    <td><img src="https://assets.breatheco.de/apis/img/images.php?blob&random&cat=icon&tags=4geeks,32"></td>
-    <td>
-      <h1 align="center"> Tutorial de ejercicios Bootstrap en 4Geeks Academy</h1>
-      <img src="https://img.shields.io/github/last-commit/4geeksacademy/bootstrap-exercises" />
-      <a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
-      <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
-      <a href="https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
-    </td>
-  </tr>
-</table>
+# Tutorial de ejercicios Bootstrap en 4Geeks Academy
+
+<a href="https://breatheco.de"><img src="https://img.shields.io/badge/certified-BreatheCode-blue" /></a>
+<a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
+<a href="https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
 
 ¡Hola! Soy Alejandro Sanchez @alesanchezr, muy emocionado de tenerte aquí! 🎉 😂 Aprender a codificar es difícil, ¡necesitas entrenamiento! Envíame un DM en twitter si tienes alguna pregunta. 
 
@@ -41,7 +34,7 @@
 </p>
 
 Una completa selección de Ejercicios autograduados sobre CSS ¡para cualquier interesado en aprender CSS!
-<!-- endhide -->
+
 ## Instalación en un clic:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial.git)
@@ -73,6 +66,8 @@ $ learnpack start
 ```
 
 Nota: Los ejercicios son autograduados pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
+
+<!-- endhide -->
 
 ## ¿Cómo están organizados los ejercicios?
 
