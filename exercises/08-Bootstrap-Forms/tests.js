@@ -90,7 +90,7 @@ describe("All the tests should pass", function () {
         expect(inputs[2].type.trim()).toBe("checkbox")
     })
 
-    it('The checkbox should have aside the text "Remember me"', () => {
+    it('The checkbox should have a side text "Remember me"', () => {
         let rememberMe = html.toString().indexOf("Remember me")
         let checkbox = html.toString().indexOf("checkbox")
         expect(rememberMe).toBeTruthy()
