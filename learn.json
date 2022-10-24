@@ -9,7 +9,8 @@
     "difficulty": "easy",
     "skills": ["bootstrap", "html-layouts", "css-styling"],
     "technolgy": "bootstrap",
-    "video-solutions": false,
+    "videoSolutions": false,
+    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "graded": true,
     
         "editor": {
