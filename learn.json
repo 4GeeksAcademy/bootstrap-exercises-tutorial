@@ -1,7 +1,13 @@
 {
     "slug": "bootstrap-exercises",
-    "title": "Learn Bootstrap Tutorial",
-    "description": "A complete tutorial list of small targeted exercises that will show the most useful things you need to learn about bootstrap",
+    "title": {
+        "us": "Learn Bootstrap Tutorial",
+        "es": "Tutorial para Aprender Bootstrap"
+    },
+    "description": {
+        "us": "A complete tutorial list of small targeted exercises that will show the most useful things you need to learn about bootstrap",
+        "es": "Un tutorial completo de ejercicios que mostrarán las cosas más útiles de Bootstrap."
+    },
     "repository": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial",
     "language": "html",
     "duration": 8,
