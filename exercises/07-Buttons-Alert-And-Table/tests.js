@@ -78,9 +78,9 @@ describe("2. The Left column should contain all the required elements in the cor
         jest.resetModules();
     });
 
-    it("The first element should be an H5 tag", function () {
+    it("The first element should be an H3 tag", function () {
         let col = document.querySelector(".container-fluid").querySelector(".row").querySelectorAll("div")[0];
-        expect(col.children[0].nodeName).toBe("H5");
+        expect(col.children[0].nodeName).toBe("H3");
     })
 
     it("The second element should be a paragraph", function () {
