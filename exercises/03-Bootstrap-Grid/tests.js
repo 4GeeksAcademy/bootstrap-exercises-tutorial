@@ -59,8 +59,8 @@ describe("All the tests should pass", function () {
 
         let div = thirdRow.querySelector("div");
         expect(div).toBeTruthy();
-        expect(div.classList.contains("col-12") || div.classList.contains("col"));
-        expect(div.classList.contains("bg-danger"));
+        expect(div.classList.contains("col-12") || div.classList.contains("col")).toBeTruthy();
+        expect(div.classList.contains("bg-danger")).toBeTruthy();
         expect(div.innerHTML.toString()).toBeTruthy();
     });
     
