@@ -33,7 +33,7 @@ https://getbootstrap.com/docs/5.0/layout/grid/
 
 3. Change the `background-color` of the `col-12` to `red`, and add your name inside of the `<div>`.
 
-4. Change the main `container` to `container-fluid`
+4. Change the main div `container` to `container-fluid`
 
 
 ### Expected result:

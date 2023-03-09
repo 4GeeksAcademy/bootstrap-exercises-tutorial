@@ -34,7 +34,7 @@ https://getbootstrap.com/docs/5.0/layout/grid/
 
 3. Cambia el color de fondo(`background-color`) del `col-12` a rojo(`red`), y agrega tu nombre adentro del `<div>`.
 
-4. Cambia el principal `container` a `container-fluid`
+4. Cambia el div principal `container` a `container-fluid`
 
 ### Resultado esperado:
 
