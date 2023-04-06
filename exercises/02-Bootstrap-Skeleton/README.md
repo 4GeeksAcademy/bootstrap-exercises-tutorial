@@ -23,11 +23,11 @@ OR
 
 1. Link the Bootstrap CSS Stylesheet with the document using the **link** tag you find above.
 
-2. Wrap the content of the website within a `div` with a **container** class.
+2. Wrap the content of the website within a `div` with a ``container`` and ``bg-secondary`` classes. 
 
 3. **Build** and then **Preview** the exercise and compare the differences.
 
-4. Now change the class of the div you've just created to **container-fluid**.
+4. Now change the class of the div you've just created to `container-fluid` and `bg-secondary` classes.
 
 5. **Build** and then **Preview** again and compare the differences.
 
