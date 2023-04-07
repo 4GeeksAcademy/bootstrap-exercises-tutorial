@@ -35,9 +35,11 @@ Complete selection of autograded CSS exercises, anyone interested in learning CS
 </p>
 
 
-## One click installation:
+## One click installation (recommended):
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial)
+You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/bootstrap-exercises-tutorial) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial.git).
+
+> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 ## Local installation:
 
