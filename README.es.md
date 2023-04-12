@@ -67,8 +67,6 @@ $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
 
-Nota: Los ejercicios son autograduados pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
-
 <!-- endhide -->
 
 ## ¿Cómo están organizados los ejercicios?
@@ -78,6 +76,8 @@ Cada ejercicio es una pequeña aplicación de react que contiene los siguientes 
 1. **index.js:** Representa el archivo de entrada para toda la aplicación.
 2. **README.md:** Contiene las instrucciones de los ejercicios.
 3. **test.js:** No tienes que abrir este archivo, contiene el script del test para el ejercicio.
+
+> Nota: Los ejercicios son autograduados pero los tests son muy rígidos y estrictos, mi recomendación es que ignores los tests y los uses solo como una recomendación o pueden frustrarte.
 
 ## Colaboradores
  
