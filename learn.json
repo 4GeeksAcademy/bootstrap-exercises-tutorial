@@ -16,6 +16,7 @@
     "skills": ["bootstrap", "html-layouts", "css-styling"],
     "technolgy": "bootstrap",
     "videoSolutions": false,
+    "projectType": "tutorial",
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "graded": true,
     
