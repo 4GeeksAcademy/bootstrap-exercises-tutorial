@@ -42,10 +42,11 @@ describe('1. All the rules in the instructions should be applied', function () {
         expect(head.toString().indexOf(`<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">`)>-1).toBeTruthy();
     });
     
-    it('The body should contain a div tag with the class container-fluid', function () {
+    it('The body should contain a div tag with the class container-fluid and bg-secondary', function () {
         let div = document.querySelector("div")
         expect(div).toBeTruthy();
         expect(div.classList.contains("container-fluid")).toBeTruthy();
+        expect(div.classList.contains("bg-secondary")).toBeTruthy();
     });
 
     it('The div tag should wrap the existing h1 and p tags', function () {
