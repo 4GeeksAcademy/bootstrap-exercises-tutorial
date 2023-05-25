@@ -23,7 +23,7 @@ OR
 
 1. Link the Bootstrap CSS Stylesheet with the document using the **link** tag you find above.
 
-2. Wrap the content of the website within a `div` with a ``container`` and ``bg-secondary`` classes. 
+2. Wrap the content of the website within a `div` with a `container` and `bg-secondary` classes. 
 
 3. **Build** and then **Preview** the exercise and compare the differences.
 
