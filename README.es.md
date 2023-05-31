@@ -13,7 +13,7 @@
 
 1. Cómo aplicar Bootstrap a tu sitio web.
 
-2. Seleccionar elementos HTML de su sitio web para aplicar los estilos de Bootstrap.
+2. Seleccionar elementos HTML de tu sitio web para aplicar los estilos de Bootstrap.
 
 3. Aplicar clases de Bootstrap a esos elementos.
 
