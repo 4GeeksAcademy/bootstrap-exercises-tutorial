@@ -69,9 +69,9 @@ describe("All the tests should pass", function () {
 
     });
 
-    it('The background color of the second column should be gray', function(){
+    it('The background color of the second column should be light gray', function(){
         let col10 = document.querySelector(".col-10")
-        expect(col10.classList.contains("bg-secondary")).toBeTruthy();
+        expect(col10.classList.contains("bg-light")).toBeTruthy();
     })
 
     it('The second column should contain an <h4>, a <p> and a <button>', function () {
