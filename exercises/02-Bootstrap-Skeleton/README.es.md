@@ -25,11 +25,11 @@ Al usar Bootstrap, debes incluir todo su contenido dentro de las siguientes clas
 
 2. Introduce el contenido del sitio web dentro de un `<div>` con clases de `container` y `bg-secondary`.
 
-3. **Compila** y luego **revisa** el ejercicio y compara las diferencias.
+3. **Compila** y da una **vista previa** al ejercicio y compara las diferencias.
 
 4. Ahora cambia la clase del `<div>` que acabas de crear con las clases de `container-fluid` y `bg-secondary`.
 
-5. **Compila** y luego **revisa** el ejercicio y compara las diferencias.
+5. **Compila** y da una **vista previa** al ejercicio y compara las diferencias.
 
 
 ## 🔎 Importante:
