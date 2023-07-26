@@ -11,13 +11,13 @@ Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! ðŸŽ‰ ðŸ
 
 1. How to apply Bootstrap to your website.
 
-2. Selecting HTML Elements from your website to apply the Bootstrap styles to.
+2. Selecting HTML Elements from your website to apply the Bootstrap styles.
 
 3. Apply Bootstrap classes to those elements.
 
-4. Use the most popular Bootstrap Rules.
+4. Use the most popular Bootstrap rules.
 
-5. Learn the most popular Bootstrap Tricks.
+5. Learn the most popular Bootstrap tricks.
 
 <!-- hide -->
 #### Before we start... other related tutorials
