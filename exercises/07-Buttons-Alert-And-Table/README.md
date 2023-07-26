@@ -7,7 +7,7 @@ Anchor, button, alert, Bootstrap helper classes and other Bootstrap elements can
 
 It's not only aesthetics, each style is meant to serve a specific purpose in your website depending on the context.
 
-+ More on Bootstrap buttons:
+## 🔎 More on Bootstrap buttons:
 
 - https://getbootstrap.com/docs/5.0/components/buttons/
 - https://getbootstrap.com/docs/5.0/content/tables/#striped-rows
