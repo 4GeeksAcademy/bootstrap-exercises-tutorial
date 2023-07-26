@@ -15,7 +15,7 @@ describe("All the tests should pass", function () {
         jest.resetModules();
     });
 
-    it("You should not change or delete the existing elements in the head tag", function () {
+    it("You should not change or delete the existing elements in the <head> tag", function () {
         let head = document.querySelector("head");
         let meta = head.querySelectorAll("meta");
         let link = head.querySelector("link").href;
@@ -26,16 +26,16 @@ describe("All the tests should pass", function () {
         expect(title).toBe("08 Bootstrap Forms")
     })
 
-    it("You should not use the style tag.", function (){
+    it("You should not use the <style> tag", function (){
         let style = document.querySelector('style')
         expect(style).toBeFalsy()
     })
 
-    it("Do not use any inline styles, just use the bootstrap classes for styling", function () {
+    it("Do not use any inline styles, only use the bootstrap classes for styling", function () {
         expect(html.toString().match(/style(\s*)=(\s*)["']/)).toBeFalsy();
     });
 
-    it("You should create a form tag", () => {
+    it("You should create a <form> tag", () => {
         let form = document.querySelector("form")
         expect(form).toBeTruthy()
     })
@@ -99,7 +99,7 @@ describe("All the tests should pass", function () {
         expect(rememberMe).toBeGreaterThan(checkbox)
     })
 
-    it('The form should have a button', () => {
+    it('The form should have a <button>', () => {
         let form = document.querySelector("form")
         expect(form).toBeTruthy();
         
