@@ -15,7 +15,7 @@ describe("All the tests should pass", function () {
     afterEach(() => {
         jest.resetModules();
     });
-    it("You should not change or delete the existing elements in the head tag", function () {
+    it("You should not change or delete the existing elements in the <head> tag", function () {
         let meta1 = document.querySelector('head').innerHTML.toString().indexOf("<meta c")
         let meta2 = document.querySelector('head').innerHTML.toString().indexOf("<meta n")        
         let title = document.querySelector('head').querySelector("title")
@@ -27,12 +27,12 @@ describe("All the tests should pass", function () {
         expect(bootstrapLink>-1).toBeTruthy();
     })
 
-    it("You should not use the style tag.", function (){
+    it("You should not use the <style> tag", function (){
         let style = document.querySelector('style')
         expect(style).toBe(null)
     })
 
-    it("Do not use any inline styles, just use the bootstrap classes for styling", function () {
+    it("Do not use any inline styles, only use the bootstrap classes for styling", function () {
         expect(html.toString().match(/style(\s*)=(\s*)["']/)).toBeFalsy();
     });
 });
@@ -45,14 +45,14 @@ describe('1. All the rules to create the first section should be applied.', func
     });
     afterEach(() => {jest.resetModules();});
 
-    it('The body should contain a div tag with the class container-fluid', function () {
+    it('The body should contain a <div> tag with the class container-fluid', function () {
         let div = document.querySelector("div");
 
         expect(div).toBeTruthy();
         expect(div.classList.contains("container-fluid")).toBeTruthy();
     });
 
-    it(`The first element of the first section should be an H1 tag`, function () {
+    it(`The first element of the first section should be an <h1> tag`, function () {
         let div = document.querySelector(".container-fluid")
         expect(div).toBeTruthy();
 
@@ -63,7 +63,7 @@ describe('1. All the rules to create the first section should be applied.', func
         expect(h1).toBeTruthy();
     });
 
-    it(`The second element of the first section should be a P tag`, function () {
+    it(`The second element of the first section should be a <p> tag`, function () {
         let div = document.querySelector(".container-fluid")
         expect(div).toBeTruthy();
 
@@ -74,7 +74,7 @@ describe('1. All the rules to create the first section should be applied.', func
         expect(p).toBeTruthy();
     });
 
-    it(`The third element of the first section should be a button tag with a blue button class`, function () {
+    it(`The third element of the first section should be a <button> tag with a blue button class`, function () {
         let div = document.querySelector(".container-fluid")
         expect(div).toBeTruthy();
 
@@ -96,7 +96,7 @@ describe('2. All the rules to create the second row should be applied', function
     });
     afterEach(() => {jest.resetModules()});
 
-    it('The second sections should contain three columns of the same width', function () {
+    it('The second section should contain 3 columns of the same width', function () {
         let secondSection = document.querySelectorAll(".row")[1];
         expect(secondSection).toBeTruthy();
 
@@ -106,7 +106,7 @@ describe('2. All the rules to create the second row should be applied', function
         expect(cols[2].classList.contains("col") || cols[2].classList.contains("col-4")).toBeTruthy();
     })
 
-    it('The 3 columns should contain an H2, a p and a button ', function () {
+    it('The 3 columns should contain an <h2>, a <p> and a <button>', function () {
         let secondSection = document.querySelectorAll(".row")[1];
         expect(secondSection).toBeTruthy();
 
