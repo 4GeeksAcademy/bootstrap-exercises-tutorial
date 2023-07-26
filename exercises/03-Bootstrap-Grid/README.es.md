@@ -25,7 +25,7 @@ En Bootstrap 5, la propiedad `justify-content` se agrega a las clases para mover
 
 2. Agrega una tercera fila con solo una columna de 12 espacios.
 
-3. Cambia el color de fondo(`background-color`) de la fila recién creada a rojo(`red`), y agrega tu nombre adentro del `<div>`.
+3. Cambia el color de fondo (`background-color`) de la fila recién creada a rojo (`red`), y agrega tu nombre adentro del `<div>`.
 
 4. Cambia la clase del `<div>` principal de `container` a `container-fluid`.
 
