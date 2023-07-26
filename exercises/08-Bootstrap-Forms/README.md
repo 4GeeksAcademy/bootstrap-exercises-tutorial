@@ -22,7 +22,7 @@
 
 9. Everything should be done with bootstrap (No css allowed).
 
-## 💡Hint:
+## 💡 Hint:
 
 To do this exercise you need to use the Bootstrap documentation:
 
