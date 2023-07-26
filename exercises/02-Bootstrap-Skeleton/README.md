@@ -33,5 +33,5 @@ OR
 
 ## 🔎 Important:
 
-To understand the difference between both `container` classes, you have to make the `<div>` container smaller and bigger. There is margin-left auto and margin-right auto to center the container; whereas the content in the `container-fluid` class spans through all the page's width.
+To understand the difference between both `container` classes, you have to make the `<div>` container smaller and bigger. There is `margin-left: auto` and `margin-right: auto` to center the container; whereas the content in the `container-fluid` class spans through all the page's width.
 
