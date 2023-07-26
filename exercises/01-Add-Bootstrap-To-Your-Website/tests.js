@@ -13,7 +13,7 @@ describe("All the tests should pass", function () {
     afterEach(() => {
         jest.resetModules();
     });
-    it("You should not change or delete the existing elements in the head tag", function () {
+    it("You should not change or delete the existing elements in the <head> tag", function () {
         let head = document.querySelector('head')
         expect(head).toBeTruthy();
 
@@ -33,13 +33,13 @@ describe('1. The html code should contain the link tag and 2 Boostrap script tag
         document.documentElement.innerHTML=html.toString();
     });
     afterEach(() => {jest.resetModules();});
-    it('The head tag should contain the link tag for Bootstrap', function () {
+    it('The <head> tag should contain the <link> tag for Bootstrap', function () {
         let bodyContent=document.querySelector("head").innerHTML
         // we can read from the source code
         // console.log(html.toString());
         expect(bodyContent.toString().indexOf(`<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">`)>-1).toBeTruthy();
     });
-    it('The body should contain 2 script tags before the body closing tag', function () {
+    it('The <body> should contain 2 <script> tags before the </body> closing tag', function () {
         let scripts = document.querySelectorAll('script')
 
         expect(scripts[0].src).toBe("https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js")
