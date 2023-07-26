@@ -11,9 +11,10 @@ No es solo estética, cada estilo está destinado a servir un propósito especí
 
 Replica exactamente esta misma imagen utilizando los elementos de Bootstrap: 
 
-- botón (Button),
-- Alerta (Alert) y
-- Tabla (y, por supuesto, filas y columnas para el diseño).
+- Botones.
+- Una alerta.
+- Una tabla.
+- También, sin falta, filas y columnas para el diseño.
 
 ![Example Image](../../.learn/assets/1509928996281_e5796b115653b0ecb1028ad585b7ff8b.png?raw=true)
 
