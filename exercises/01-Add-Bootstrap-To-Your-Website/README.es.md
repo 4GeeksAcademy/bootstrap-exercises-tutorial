@@ -15,7 +15,7 @@ No te preocupes por las propiedades como `integrity` y `crossorigin`, son necesa
 Así es como se agrega bootstrap desde un archivo **local** (que está en tu lugar de trabajo):
 
 ```html
-<link href="camino/hacia/tu/archivo" rel="stylesheet">
+<link href="ruta/hacia/tu/archivo" rel="stylesheet">
 ```
 
 ### 🔎 Importante:
