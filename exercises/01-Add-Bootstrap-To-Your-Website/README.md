@@ -11,7 +11,7 @@ There are two ways to add Bootstrap into your website:
 
 ### 🔎 Important:
 
-Don't worry about the properties like `integrity` or `crossdomain`, they are required for security purposes.
+Don't worry about the properties like `integrity` or `crossorigin`, they are required for security purposes.
 
 + This is how you add bootstrap from a **local** file (that is in your workplace):
 
