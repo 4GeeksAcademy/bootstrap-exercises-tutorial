@@ -22,7 +22,8 @@ Replica exactamente esta misma imagen utilizando los elementos de Bootstrap:
 
 + ¡No necesitas nada de CSS!
 
-## 🔎 Más información sobre los botones de Bootstrap:
+## 🔎 Importante:
 
 - https://getbootstrap.com/docs/5.0/components/buttons/
+- https://getbootstrap.com/docs/5.0/components/alerts/
 - https://getbootstrap.com/docs/5.0/content/tables/#striped-rows
