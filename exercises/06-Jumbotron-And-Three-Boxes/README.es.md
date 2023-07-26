@@ -8,7 +8,9 @@
 
 ## 💡 Pista:
 
-+ Usa 1 contenedor principal con 2 filas. La primera fila contiene el `<h1>`, el `<p>` y el `<button>`, y la segunda fila contiene 3 columnas.
++ Usa 1 contenedor principal con 2 filas. La primera fila contiene un `<h1>`, un `<p>` y un `<button>`, y la segunda fila contiene 3 columnas.
+
++ En la segunda fila, cada columna contiene un `<h2>` un `<p>` y un `<button>`.
 
 ## 🔎 Importante:
 
