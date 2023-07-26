@@ -22,7 +22,8 @@ It's not only aesthetics, each style is meant to serve a specific purpose in you
 
 + You don't need any CSS!
 
-## 🔎 More on Bootstrap buttons:
+## 🔎 Important Reading:
 
 - https://getbootstrap.com/docs/5.0/components/buttons/
+- https://getbootstrap.com/docs/5.0/components/alerts/
 - https://getbootstrap.com/docs/5.0/content/tables/#striped-rows
