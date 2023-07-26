@@ -25,7 +25,7 @@ In Bootstrap 5, the `justify-content` property is added to the classes to move t
 
 2. Add a third row with only one column of 12 slots.
 
-3. Change the `background-color` of the row you just added to `red`, and add your name inside of the `<div>`.
+3. Change the `background-color` of the row you just created to `red`, and add your name inside of the `<div>`.
 
 4. Change the main `<div>` from `container` to `container-fluid`
 
