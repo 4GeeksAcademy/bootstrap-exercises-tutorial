@@ -26,6 +26,6 @@
 
 Para hacer este ejercicio usa la documentación de Bootstrap:
 
-- Formularios: https://getbootstrap.com/docs/5.0/forms/overview/#overview
+- Formularios: https://getbootstrap.com/docs/5.0/forms/form-control/
 
 - Botones: https://getbootstrap.com/docs/5.0/components/buttons/#examples
