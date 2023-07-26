@@ -30,12 +30,13 @@ In Bootstrap 5, the `justify-content` property is added to the classes to move t
 4. Change the main `<div>` from `container` to `container-fluid`
 
 
-## 💻 Expected result:
-
-![Example Image](../../.learn/assets/1509892918783_38dc765ee66d5d7e4258e43e5f5dde8d.png?raw=true)
-
 ## 💡 Hints:
 
 + Set the class properties of each column and specify how many slots you want each column to take.
 
 + Check the Bootstrap documentation to change the background color to red.
+
+
+## 💻 Expected result:
+
+![Example Image](../../.learn/assets/1509892918783_38dc765ee66d5d7e4258e43e5f5dde8d.png?raw=true)
