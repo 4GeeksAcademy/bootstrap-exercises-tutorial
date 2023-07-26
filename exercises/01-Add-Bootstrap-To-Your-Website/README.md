@@ -23,8 +23,6 @@ Don't worry about the properties like `integrity` or `crossorigin`, they are req
 
 It's a good idea to make sure that your file exists on that URL, you can test it by opening a new browser tab and pasting the path on the browser's URL (you will see the content of the file on your screen).
 
-
-
 Bootstrap is comprised of 2 files: The CSS Stylesheet and the JavaScript Source Code.
 
 The Bootstrap CSS Stylesheet `<link>` is pasted in the `<head>` tag before any other CSS Stylesheets.
