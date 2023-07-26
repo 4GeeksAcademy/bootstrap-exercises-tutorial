@@ -10,6 +10,8 @@
 
 + Use 1 main container with 2 rows. The first row contains an `<h1>`, a `<p>` and a `<button>`, and the second row contains 3 columns.
 
++ In the second row each column contains an `<h2>` a `<p>` and a `<button>`.
+
 ## 🔎 Important:
 
 Check the docs:
