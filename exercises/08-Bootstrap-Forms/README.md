@@ -26,6 +26,6 @@
 
 To do this exercise you need to use the Bootstrap documentation:
 
-- Forms: https://getbootstrap.com/docs/5.0/forms/overview/#overview
+- Forms: https://getbootstrap.com/docs/5.0/forms/form-control/
 
 - Buttons: https://getbootstrap.com/docs/5.0/components/buttons/#examples
