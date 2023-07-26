@@ -1,7 +1,7 @@
 # `01` Add Bootstrap To Your Website
 
 There are two ways to add Bootstrap into your website: 
-**Remote** or **Local** (just like any other CSS file), the only difference will be the URL path you specify on the <link> tag (for Bootstrap's .CSS files) or <script> tag (for Bootstrap's .JS files).
+**Remote** or **Local** (just like any other CSS file), the only difference will be the URL path you specify on the `<link>` tag (for Bootstrap's .CSS files) or `<script>` tag (for Bootstrap's .JS files).
 
 + This is how you do a **remote** CSS Bootstrap import:
 
@@ -27,9 +27,9 @@ It's a good idea to make sure that your file exists on that URL, you can test it
 
 Bootstrap is comprised of 2 files: The CSS Stylesheet and the JavaScript Source Code.
 
-The Bootstrap CSS Stylesheet <link> is pasted in the <head> tag before any other CSS Stylesheets.
+The Bootstrap CSS Stylesheet `<link>` is pasted in the `<head>` tag before any other CSS Stylesheets.
 
-The JavaScript Source Code <script> tags are pasted right before the closing </body> tag.
+The JavaScript Source Code `<script>` tags are pasted right before the closing `</body>` tag.
 
 
 > For more information: https://getbootstrap.com/docs/5.0/getting-started/introduction/
@@ -55,4 +55,4 @@ The JavaScript Source Code <script> tags are pasted right before the closing </b
 
 ## 💡 Hint:
 
-+ The anchor should be a red button if everything went well.
++ The button should be red if everything went well.
