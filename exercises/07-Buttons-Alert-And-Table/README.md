@@ -16,9 +16,9 @@ It's not only aesthetics, each style is meant to serve a specific purpose in you
 
 1. Please replicate this exact same image using the Bootstrap elements: 
 
-- Button
-- Alert 
-- Table (and of course, rows and cols for the layout).
+- Different color buttons
+- A Table
+- And of course, rows and cols for the layout
 
 ![Example Image](../../.learn/assets/1509928996281_e5796b115653b0ecb1028ad585b7ff8b.png?raw=true)
 
