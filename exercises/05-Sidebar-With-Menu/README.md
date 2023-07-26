@@ -8,13 +8,13 @@
 
 2. The first column should be a `col-2` and the second one should be `col-10`.
 
-3. The title of the second column should be an `<h4></h4>`.
+3. The title of the second column should be an `<h4>`.
 
 ## 💡 Hint:
 
-Create a row with two columns. The column on the left side must have a sidebar menu inside.
++ Create a row with two columns. The column on the left side must have a sidebar menu inside.
 
-### :mag_right: Important:
+## 🔎 Important:
 
 Check this documentation:
 
