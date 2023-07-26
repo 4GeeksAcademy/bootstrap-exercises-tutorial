@@ -6,7 +6,7 @@ Bootstrap helps us a lot by introducing the class `nav` that can behave in sever
 
 In this case, we have the typical `ul` needed to create a menu, but without any CSS styles applied yet.
 
-> More informarion on navs: https://getbootstrap.com/docs/5.0/components/navs-tabs/
+> More information on navs: https://getbootstrap.com/docs/5.0/components/navs-tabs/
 
 
 ## 📝 Instructions:
