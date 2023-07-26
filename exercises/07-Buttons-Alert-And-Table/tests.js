@@ -126,7 +126,7 @@ describe("3. The RIGHT column should contain all the required elements in the co
         expect(col[1].classList.contains("table-striped")).toBeTruthy();
     })
 
-    it("The <table> should contain 3 columns and 3 rows", function () {
+    it("The <table> should contain 3 columns and 4 rows", function () {
         let table=document.querySelector("table").children;
 
         expect(table.length).toBe(2);
