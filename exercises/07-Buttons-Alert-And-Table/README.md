@@ -1,4 +1,4 @@
-# `07` Buttons, Alert, Glyphicon and Table
+# `07` Buttons, Alert, and Table
 
 Anchor, button, alert, Bootstrap helper classes and other Bootstrap elements can have 7 different styles (colors):
 
