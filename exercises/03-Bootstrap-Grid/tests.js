@@ -15,7 +15,7 @@ describe("All the tests should pass", function () {
         jest.resetModules();
     });
     
-    it("You should not change or delete the existing elements in the head tag", function () {
+    it("You should not change or delete the existing elements in the <head> tag", function () {
         let meta1 = document.querySelector('head').innerHTML.toString().indexOf("<meta c")
         let meta2 = document.querySelector('head').innerHTML.toString().indexOf("<meta n")        
         let title = document.querySelector('head').querySelector("title")
@@ -27,12 +27,12 @@ describe("All the tests should pass", function () {
         expect(bootstrapLink>-1).toBeTruthy();
     })
 
-    it("You should not use the style tag.", function (){
+    it("You should not use the <style> tag", function (){
         let style = document.querySelector('style')
         expect(style).toBe(null)
     })
 
-    it("Do not use any inline styles, just use the bootstrap classes for styling", function () {
+    it("Do not use any inline styles, only use the bootstrap classes for styling", function () {
         expect(html.toString().match(/style(\s*)=(\s*)["']/)).toBeFalsy();
     });
 
@@ -53,7 +53,7 @@ describe("All the tests should pass", function () {
         expect(cols[2].classList.contains("col") || cols[2].classList.contains("col-4")).toBeTruthy();
     });
 
-    it('You should create a third row with one column of 12 slot and the background red', function () {
+    it('You should create a third row with one column of 12 slots and a red background', function () {
         let thirdRow = document.querySelectorAll(".row")[2]
         expect(thirdRow).toBeTruthy();
 
@@ -64,7 +64,7 @@ describe("All the tests should pass", function () {
         expect(div.innerHTML.toString()).toBeTruthy();
     });
     
-    it('The main div tag should contain the class container-fluid', function () {
+    it('The main <div> tag should have the class container-fluid', function () {
         let div = document.querySelector("body").querySelector("div");
         expect(div).toBeTruthy();
         expect(div.classList.contains("container-fluid")).toBeTruthy();
