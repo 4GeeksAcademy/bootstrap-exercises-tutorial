@@ -20,4 +20,5 @@ Check this documentation:
 
 - https://getbootstrap.com/docs/5.0/components/navs-tabs/#vertical
 - https://getbootstrap.com/docs/5.0/layout/grid/
+- https://getbootstrap.com/docs/5.0/components/buttons/
 - https://getbootstrap.com/docs/5.0/utilities/spacing/
