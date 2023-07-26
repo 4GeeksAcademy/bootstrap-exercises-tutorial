@@ -27,7 +27,7 @@ In Bootstrap 5, the `justify-content` property is added to the classes to move t
 
 3. Change the `background-color` of the row you just created to `red`, and add your name inside of the `<div>`.
 
-4. Change the main `<div>` from `container` to `container-fluid`
+4. Change the class of the main `<div>` from `container` to `container-fluid`
 
 
 ## 💡 Hints:
