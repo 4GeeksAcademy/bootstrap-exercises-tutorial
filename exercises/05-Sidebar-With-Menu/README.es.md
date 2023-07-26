@@ -12,7 +12,7 @@
 
 ## 💡 Pista:
 
-+ Crea una fila (row) con dos columnas, la columna de la izquierda debe tener un barra lateral con menu (sidebar menu) dentro.
++ Crea una fila (row) con dos columnas, la columna de la izquierda debe tener una barra lateral con menú (sidebar menu) dentro.
 
 
  
