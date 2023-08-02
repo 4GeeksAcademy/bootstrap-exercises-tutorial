@@ -38,7 +38,7 @@ https://getbootstrap.com/docs/5.0/layout/grid/
 
 ### Resultado esperado:
 
-![Example Image](../../.learn/assets/1509892918783_38dc765ee66d5d7e4258e43e5f5dde8d.png?raw=true)
+![Example Image](../../.learn/assets/03-bootstrap-grid-result.png?raw=true)
 
 ## 💡 Pista:
 

@@ -4,7 +4,7 @@
 
 1. Use Bootstrap form styles to recreate this exact same login form:
 
-![Example Image](../../.learn/assets/bootstrap08.png?raw=true)
+![Example Image](../../.learn/assets/08-bootstrap-forms-result.png?raw=true)
 
 2. The form should have a dark-grey background color.
 
