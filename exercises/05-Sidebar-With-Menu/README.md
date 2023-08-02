@@ -10,7 +10,7 @@
 
 3. The title of the second column should be an `<h4>`.
 
-## 💡 Hint:
+## 💡 Hints:
 
 + Create a row with two columns. The column on the left side must have a sidebar menu inside.
 
