@@ -14,6 +14,8 @@
 
 + Create a row with two columns. The column on the left side must have a sidebar menu inside.
 
++ Don't forget the background color on the second column (it's a very light gray).
+
 ## 🔎 Important:
 
 Check this documentation:
@@ -22,3 +24,4 @@ Check this documentation:
 - https://getbootstrap.com/docs/5.0/layout/grid/
 - https://getbootstrap.com/docs/5.0/components/buttons/
 - https://getbootstrap.com/docs/5.0/utilities/spacing/
+- https://getbootstrap.com/docs/5.0/utilities/background/
