@@ -4,7 +4,7 @@
 
 1. Replica este diseño:
 
-![Example Image](../../.learn/assets/1509911882903_9a14b4fa806a07fbbff1abb2143b7799.png?raw=true)
+![Example Image](../../.learn/assets/05-sidebar-with-menu-result.png?raw=true)
 
 2. La primera columna debe ser `col-2` y la segunda columna debe ser `col-10`.
 

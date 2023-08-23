@@ -4,7 +4,7 @@
 
 1. Recrea este HTML exacto usando Bootstrap (no necesitas CSS en absoluto):
 
-![Example Image](../../.learn/assets/1509928737623_bb6c18c0353c4f29b8bf62f7bcfabdf2.png?raw=true)
+![Example Image](../../.learn/assets/06-jumbotron-and-three-boxes-result.png?raw=true)
 
 ## 💡 Pista:
 

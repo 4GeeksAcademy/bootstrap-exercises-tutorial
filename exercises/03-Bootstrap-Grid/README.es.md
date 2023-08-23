@@ -39,4 +39,4 @@ En Bootstrap 5, la propiedad `justify-content` se agrega a las clases para mover
 
 ## 💻 Resultado Esperado:
 
-![Example Image](../../.learn/assets/1509892918783_38dc765ee66d5d7e4258e43e5f5dde8d.png?raw=true)
+![Example Image](../../.learn/assets/03-bootstrap-grid-result.png?raw=true)
