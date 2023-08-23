@@ -4,7 +4,7 @@
 
 1. Usa los estilos de formulario de Bootstrap para recrear exactamente el mismo formulario de inicio de sesión:
 
-![Example Image](../../.learn/assets/bootstrap08.png?raw=true)
+![Example Image](../../.learn/assets/08-bootstrap-forms-result.png?raw=true)
 
 2. El formulario debe tener un color de fondo gris oscuro.
 
