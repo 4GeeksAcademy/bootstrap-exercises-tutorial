@@ -1,6 +1,6 @@
-# `08` Formularios de Bootstrap
+# `08` Bootstrap Forms
 
-## 📝 Instructions:
+## 📝 Instrucciones:
 
 1. Usa los estilos de formulario de Bootstrap para recrear exactamente el mismo formulario de inicio de sesión:
 
@@ -20,12 +20,12 @@
 
 8. El botón debe tener un ancho de 100%.
 
-9. Todo debe ser hecho con bootstrap (No se permite usar css).
+9. Todo debe ser hecho con bootstrap (No se permite usar CSS).
 
 ## 💡 Pista:
 
 Para hacer este ejercicio usa la documentación de Bootstrap:
 
-- Formularios: https://getbootstrap.com/docs/5.0/forms/overview/#overview
+- Formularios: https://getbootstrap.com/docs/5.0/forms/form-control/
 
 - Botones: https://getbootstrap.com/docs/5.0/components/buttons/#examples

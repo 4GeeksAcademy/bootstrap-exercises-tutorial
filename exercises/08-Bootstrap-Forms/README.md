@@ -20,12 +20,12 @@
 
 8. The button should have a width of 100%
 
-9. Everything should be done with bootstrap (No css allowed).
+9. Everything should be done with bootstrap (No CSS allowed).
 
-## 💡Hint:
+## 💡 Hint:
 
 To do this exercise you need to use the Bootstrap documentation:
 
-- Forms: https://getbootstrap.com/docs/5.0/forms/overview/#overview
+- Forms: https://getbootstrap.com/docs/5.0/forms/form-control/
 
 - Buttons: https://getbootstrap.com/docs/5.0/components/buttons/#examples

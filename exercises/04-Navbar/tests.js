@@ -15,7 +15,7 @@ describe("All the tests should pass", function () {
     afterEach(() => {
         jest.resetModules();
     });
-    it("You should not change or delete the existing elements in the head tag", function () {
+    it("You should not change or delete the existing elements in the <head> tag", function () {
         let meta1 = document.querySelector('head').innerHTML.toString().indexOf("<meta c")
         let meta2 = document.querySelector('head').innerHTML.toString().indexOf("<meta n")        
         let title = document.querySelector('head').querySelector("title")
@@ -27,16 +27,16 @@ describe("All the tests should pass", function () {
         expect(bootstrapLink>-1).toBeTruthy();
     })
 
-    it("You should not use the style tag.", function (){
+    it("You should not use the <style> tag", function (){
         let style = document.querySelector('style')
         expect(style).toBe(null)
     })
 
-    it("Do not use any inline styles, just use the bootstrap classes for styling", function () {
+    it("Do not use any inline styles, only use the bootstrap classes for styling", function () {
         expect(html.toString().match(/style(\s*)=(\s*)["']/)).toBeFalsy();
     });
 
-    it('The ul tag should contain the class nav and nav-tabs', function () {
+    it('The <ul> tag should contain the class nav and nav-tabs', function () {
         let ul = document.querySelector("ul");
 
         expect(ul).toBeTruthy();
@@ -44,7 +44,7 @@ describe("All the tests should pass", function () {
         expect(ul.classList.contains("nav")).toBeTruthy();
     });
 
-    it('The li tags should contain the class nav-item', function () {
+    it('The <li> tags should contain the class nav-item', function () {
         const li = document.querySelectorAll("li");
 
         expect(li).toBeTruthy();

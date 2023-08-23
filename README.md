@@ -5,19 +5,21 @@
 <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
 <a href="https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
 
+Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! DM me on Twitter if you have any question.
 
-Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! DM me on Twitter if you have any question. You'll be learning the following concepts:
 <!-- endhide -->
+
+## You'll be learning the following concepts:
 
 1. How to apply Bootstrap to your website.
 
-2. Selecting HTML Elements from your website to apply the Bootstrap styles to.
+2. Selecting HTML Elements from your website to apply the Bootstrap styles.
 
 3. Apply Bootstrap classes to those elements.
 
-4. Use the most popular Bootstrap Rules.
+4. Use the most popular Bootstrap rules.
 
-5. Learn the most popular Bootstrap Tricks.
+5. Learn the most popular Bootstrap tricks.
 
 <!-- hide -->
 #### Before we start... other related tutorials

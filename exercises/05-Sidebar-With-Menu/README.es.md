@@ -1,6 +1,6 @@
-# `05` Sidebar (barra lateral) Con Menu
+# `05` Sidebar With Menu
 
-## 📝 Instructions:
+## 📝 Instrucciones:
 
 1. Replica este diseño:
 
@@ -8,18 +8,20 @@
 
 2. La primera columna debe ser `col-2` y la segunda columna debe ser `col-10`.
 
-3. El título de la segunda columna debe ser un `<h4></h4>`.
+3. El título de la segunda columna debe ser un `<h4>`.
 
-## 💡 Pista:
+## 💡 Pistas:
 
-Crea una fila (row) con dos columnas, la columna de la izquierda debe tener un barra lateral con menu (sidebar menu) dentro.
++ Crea una fila (row) con dos columnas, la columna de la izquierda debe tener una barra lateral con menú (sidebar menu) dentro.
 
-
++ No olvides poner el color del fondo de la segunda columna (es un gris muy claro).
  
-### :mag_right: Importante:
+## 🔎 Importante:
 
 Estos documentos pueden ser útiles:
 
 - https://getbootstrap.com/docs/5.0/components/navs-tabs/#vertical
 - https://getbootstrap.com/docs/5.0/layout/grid/
+- https://getbootstrap.com/docs/5.0/components/buttons/
 - https://getbootstrap.com/docs/5.0/utilities/spacing/
+- https://getbootstrap.com/docs/5.0/utilities/background/
