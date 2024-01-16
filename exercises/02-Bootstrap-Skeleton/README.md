@@ -6,7 +6,6 @@ If you want to import Bootstrap to your website, you can use this public URL tha
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 ```
 
-
 When using Bootstrap, you have to wrap all of your content within the following **container** classes:
 
 ```html
@@ -21,18 +20,18 @@ OR
 
 ## 📝 Instructions:
 
-1. Link the Bootstrap CSS Stylesheet with the document using the **link** tag you find above.
+1. Link the Bootstrap CSS Stylesheet with the document using the `<link>` tag you find above.
 
-2. Wrap the content of the website within a `div` with a **container** class.
+2. Wrap the content of the website within a `<div>` with a `container` and `bg-secondary` classes. 
 
-3. **Build** and then **Preview** the exercise and compare the differences.
+3. **Build** and then **preview** the exercise to compare the differences.
 
-4. Now change the class of the div you've just created to **container-fluid**.
+4. Now change the class of the `<div>` you've just created to `container-fluid` and `bg-secondary` classes.
 
-5. **Build** and then **Preview** again and compare the differences.
+5. **Build** and then **preview** again and compare the differences.
 
 
-## :mag_right: Important:
+## 🔎 Important:
 
-To understand the difference between both `container` classes, you have to make the `div` container smaller and bigger. There is margin-left auto and margin-right auto to center the container; whereas the content in the `container-fluid` class spans through all the page's width
+To understand the difference between both `container` classes, you have to make the `<div>` container smaller and bigger. There is `margin-left: auto` and `margin-right: auto` to center the container; whereas the content in the `container-fluid` class spans through all the page's width.
 

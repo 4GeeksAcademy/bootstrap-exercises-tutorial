@@ -1,4 +1,4 @@
-# `02` Esqueleto Bootstrap
+# `02` Bootstrap Skeleton
 
 Si quieres importar Bootstrap a tu sitio web, puedes usar esta URL pública que está disponible para todo el mundo:
 
@@ -21,23 +21,20 @@ Al usar Bootstrap, debes incluir todo su contenido dentro de las siguientes clas
 
 ## 📝 Instrucciones:
 
+1. Vincula la hoja de estilos CSS de Bootstrap con el documento usando la etiqueta `<link>` que encuentras arriba.
 
-1. Vincula el hoja de estilos CSS de Bootstrap con el documento usando la etiqueta `link` que encuentras arriba.
+2. Introduce el contenido del sitio web dentro de un `<div>` con clases de `container` y `bg-secondary`.
 
-2. Introduce el contenido del sitio web dentro de un `div` con una clase `container`.
+3. **Compila** y da una **vista previa** al ejercicio y compara las diferencias.
 
-3. **Compila** y luego **Vista previa** del ejercicio y compara las diferencias.
+4. Ahora cambia la clase del `<div>` que acabas de crear con las clases de `container-fluid` y `bg-secondary`.
 
-4. Ahora cambia la clase del `div` que acabas de crear a `container-fluid`.
-
-5. **Compila** y luego **Vista previa** del ejercicio y compara las diferencias.
+5. **Compila** y da una **vista previa** al ejercicio y compara las diferencias.
 
 
-## :mag_right: Importante:
+## 🔎 Importante:
 
-Para comprender la diferencia entre ambas clases `container`, debes hacer que el `div` del `container` (el azul, en la parte inferior izquierda de la pantalla) sea más grande. 
-
-La clase `container` tiene margin-left auto y margin-right auto para centrar el contenido; mientras que en la clase `container-fluid` el contenido abarca todo el ancho de la página.
+Para entender la diferencia entre ambas clases de `container`, debes hacer el contenedor `<div>` más pequeño y más grande. Hay `margin-left: auto` y `margin-right: auto` para centrar el contenedor; mientras que el contenido en la clase `container-fluid` se extiende a lo largo de todo el ancho de la página.
 
 
 
