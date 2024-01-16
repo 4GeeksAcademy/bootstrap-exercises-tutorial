@@ -43,7 +43,7 @@ You can open these exercises in just a few seconds by clicking: [Open in Codespa
 
 Clone the repository in your local environment and follow the steps below:
 
-1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for LearPack, make sure you also have node.js 14+:
+1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for LearnPack, make sure you also have node.js 14+:
 
 ```bash
 $ npm i learnpack -g
