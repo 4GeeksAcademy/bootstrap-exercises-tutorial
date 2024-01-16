@@ -19,9 +19,8 @@
     "projectType": "tutorial",
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
     "graded": true,
-    
-        "editor": {
-            "version": "1.0.73"
-        }
+    "editor": {
+        "version": "3.0.20"
+    }
     
 }
