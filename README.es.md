@@ -11,7 +11,7 @@
 
 ## Aprenderás los siguientes conceptos:
 
-1. Cómo aplicar Bootstrap a tu sitio web.
+1. ¿Cómo aplicar Bootstrap a tu sitio web?
 
 2. Seleccionar elementos HTML de tu sitio web para aplicar los estilos de Bootstrap.
 
