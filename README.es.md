@@ -5,7 +5,7 @@
 <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
 <a href="https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
 
-¡Hola! Soy Alejandro Sanchez @alesanchezr, muy emocionado de tenerte aquí! 🎉 😂 Aprender a codificar es difícil, ¡necesitas entrenamiento! Envíame un DM en twitter si tienes alguna pregunta. 
+¡Hola! Soy Alejandro Sanchez @alesanchezr, estoy muy emocionado de tenerte aquí! 🎉 😂 Aprender a codificar es difícil, ¡necesitas entrenamiento! Envíame un DM en twitter si tienes alguna pregunta. 
 
 <!-- endhide -->
 
