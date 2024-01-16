@@ -15,7 +15,7 @@ describe("All the tests should pass", function () {
     afterEach(() => {
         jest.resetModules();
     });
-    it("You should not change or delete the existing elements in the head tag", function () {
+    it("You should not change or delete the existing elements in the <head> tag", function () {
         let meta1 = document.querySelector('head').innerHTML.toString().indexOf("<meta c")
         let meta2 = document.querySelector('head').innerHTML.toString().indexOf("<meta n")        
         let title = document.querySelector('head').querySelector("title")
@@ -27,23 +27,23 @@ describe("All the tests should pass", function () {
         expect(bootstrapLink>-1).toBeTruthy();
     })
 
-    it("You should not use the style tag.", function (){
+    it("You should not use the <style> tag", function (){
         let style = document.querySelector('style')
         expect(style).toBe(null)
     })
 
-    it("Do not use any inline styles, just use the bootstrap classes for styling", function () {
+    it("Do not use any inline styles, only use the bootstrap classes for styling", function () {
         expect(html.toString().match(/style(\s*)=(\s*)["']/)).toBeFalsy();
     });
 
-    it('The body should contain a div tag with the class container-fluid', function () {
+    it('The body should contain a <div> tag with the class container-fluid', function () {
         let div = document.querySelector("div");
 
         expect(div).toBeTruthy();
         expect(div.classList.contains("container-fluid")).toBeTruthy();
     });
 
-    it('The div tag should contain a <div> with class row', function () {
+    it('The <div> tag should contain a <div> with class row', function () {
         let div = document.querySelector(".container-fluid").querySelector("div");
 
         expect(div).toBeTruthy();
@@ -69,12 +69,12 @@ describe("All the tests should pass", function () {
 
     });
 
-    it('The background color of the second column should be gray', function(){
+    it('The background color of the second column should be light gray', function(){
         let col10 = document.querySelector(".col-10")
-        expect(col10.classList.contains("bg-secondary")).toBeTruthy();
+        expect(col10.classList.contains("bg-light")).toBeTruthy();
     })
 
-    it('The second column should contain an H4, a p and a button', function () {
+    it('The second column should contain an <h4>, a <p> and a <button>', function () {
         let col10 = document.querySelector(".col-10")
         expect(col10).toBeTruthy();
 
@@ -87,7 +87,7 @@ describe("All the tests should pass", function () {
         expect(button).toBeTruthy();
     });
 
-    it('The button in the second column should be blue', function () {
+    it('The <button> in the second column should be blue', function () {
         let button = document.querySelector(".col-10").querySelector("button");
 
         expect(button).toBeTruthy();

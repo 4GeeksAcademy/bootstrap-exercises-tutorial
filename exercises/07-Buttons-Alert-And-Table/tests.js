@@ -16,7 +16,7 @@ describe("All the tests should pass", function () {
         jest.resetModules();
     });
 
-    it("You should not change or delete the existing elements in the head tag", function () {
+    it("You should not change or delete the existing elements in the <head> tag", function () {
         let meta1 = document.querySelector('head').innerHTML.toString().indexOf("<meta c")
         let meta2 = document.querySelector('head').innerHTML.toString().indexOf("<meta n")        
         let title = document.querySelector('head').querySelector("title")
@@ -28,12 +28,12 @@ describe("All the tests should pass", function () {
         expect(bootstrapLink>-1).toBeTruthy();
     })
 
-    it("You should not use the style tag.", function (){
+    it("You should not use the <style> tag", function (){
         let style = document.querySelector('style')
         expect(style).toBe(null)
     })
 
-    it("Do not use any inline styles, just use the bootstrap classes for styling", function () {
+    it("Do not use any inline styles, only use the bootstrap classes for styling", function () {
         expect(html.toString().match(/style(\s*)=(\s*)["']/)).toBeFalsy();
     });
 });
@@ -49,7 +49,7 @@ describe("1. You should use a main container with a row and 2 columns", function
         jest.resetModules();
     });
 
-    it("You should use a main container fluid", function () {
+    it("You should use a main container-fluid", function () {
         let div = document.querySelector("div");
         expect(div).toBeTruthy();
         expect(div.classList.contains("container-fluid")).toBeTruthy();
@@ -67,7 +67,7 @@ describe("1. You should use a main container with a row and 2 columns", function
     })
 });
 
-describe("2. The Left column should contain all the required elements in the correct position and width the correct style", function () {
+describe("2. The LEFT column should contain all the required elements in the correct position and with the correct style", function () {
     beforeEach(() => {
         //here I import the HTML into the document
         document.documentElement.innerHTML=html.toString();
@@ -78,7 +78,7 @@ describe("2. The Left column should contain all the required elements in the cor
         jest.resetModules();
     });
 
-    it("The first element should be an H5 tag", function () {
+    it("The first element should be an <h5> tag", function () {
         let col = document.querySelector(".container-fluid").querySelector(".row").querySelectorAll("div")[0];
         expect(col.children[0].nodeName).toBe("H5");
     })
@@ -88,7 +88,7 @@ describe("2. The Left column should contain all the required elements in the cor
         expect(col.children[1].nodeName).toBe("P");
     })
 
-    it("The third elements should be 2 buttons", function () {
+    it("The next two elements should be 2 buttons", function () {
         let col = document.querySelector(".container-fluid").querySelector(".row").querySelectorAll("div")[0].children;
         expect(col[2].nodeName).toBe("BUTTON");
         expect(col[2].nodeName).toBe("BUTTON");
@@ -110,7 +110,7 @@ describe("3. The RIGHT column should contain all the required elements in the co
         jest.resetModules();
     });
 
-    it("The first element should be an alert", function () {
+    it("The first element of the right column should be an alert", function () {
         let col = document.querySelector(".container-fluid").querySelector(".row").querySelectorAll("div")[1].children;
 
         expect(col[0].nodeName).toBe("DIV");
@@ -118,7 +118,7 @@ describe("3. The RIGHT column should contain all the required elements in the co
         expect(col[0].classList.contains("alert-warning")).toBeTruthy();
     })
 
-    it("The second element should be TABLE with striped rows", function () {
+    it("The second element should be a <table> with striped rows", function () {
         let col = document.querySelector(".container-fluid").querySelector(".row").querySelectorAll("div")[1].children;
 
         expect(col[1].nodeName).toBe("TABLE");
@@ -126,7 +126,7 @@ describe("3. The RIGHT column should contain all the required elements in the co
         expect(col[1].classList.contains("table-striped")).toBeTruthy();
     })
 
-    it("The TABLE should contain 3 Columns and 3 Rows ", function () {
+    it("The <table> should contain 3 columns and 4 rows", function () {
         let table=document.querySelector("table").children;
 
         expect(table.length).toBe(2);

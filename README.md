@@ -5,19 +5,21 @@
 <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
 <a href="https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
 
+Hi! I'm Alejandro Sanchez @alesanchezr, I'm thrilled to have you here! 🎉 😂 Learning to code is hard; you need coaching! DM me on Twitter if you have any question. You'll be learning the following concepts:
 
-Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! DM me on Twitter if you have any question. You'll be learning the following concepts:
 <!-- endhide -->
+
+## You'll be learning the following concepts:
 
 1. How to apply Bootstrap to your website.
 
-2. Selecting HTML Elements from your website to apply the Bootstrap styles to.
+2. Selecting HTML Elements from your website to apply the Bootstrap styles.
 
 3. Apply Bootstrap classes to those elements.
 
-4. Use the most popular Bootstrap Rules.
+4. Use the most popular Bootstrap rules.
 
-5. Learn the most popular Bootstrap Tricks.
+5. Learn the most popular Bootstrap tricks.
 
 <!-- hide -->
 #### Before we start... other related tutorials
@@ -25,43 +27,41 @@ Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 �
   <li><a href="https://github.com/4GeeksAcademy/html-tutorial-exercises-course">Learn HTML</a></li>
   <li><a href="https://github.com/4GeeksAcademy/html-forms-tutorial-exercises">Learn HTML Forms</a></li>
   <li><a href="https://github.com/4GeeksAcademy/css-tutorial-exercises-course">Learn CSS</a></li>
-  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a>← 🔥 your are here now</li>
-  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a></li>
+  <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a>← 🔥 You are here now</li>
 </ol>
 Complete selection of autograded CSS exercises, anyone interested in learning CSS!
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/4GeeksAcademy/react-exercises/master/preview.gif">
-</p>
 
 
 ## One click installation (recommended):
 
 You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/bootstrap-exercises-tutorial) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial.git).
 
-> Once you have VSCode open the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
+> Once you have VSCode open, the LearnPack exercises should start automatically. If exercises don't run automatically you can try typing on your terminal: `$ learnpack start`
 
 ## Local installation:
 
-1. Install learnpack, the package manager for learning tutorials and the html compiler plugin for learnpack, make sure you also have node.js 12+:
+Clone the repository in your local environment and follow the steps below:
 
-```
+1. Install LearnPack, the package manager for learning tutorials and the node compiler plugin for LearnPack, make sure you also have node.js 14+:
+
+```bash
 $ npm i learnpack -g
 $ learnpack plugins:install learnpack-html
 ```
 
-2. Download this particular exercises using learnpack and `cd` into the folder:
+2. Download these particular exercises using LearnPack and `cd` into the folder:
 
-```
+```bash
 $ learnpack download bootstrap-exercises-tutorial
 $ cd bootstrap-exercises-tutorial
 ```
 
-> Note: Once you finish downloading, you will find a "exercises" folder that contains all the exercises within.
+> Note: Once you finish downloading, you will find an "exercises" folder that contains all the exercises within.
 
-3. Start the tutorial/exercises by running the following command at the same level were your bc.json file is:
+3. Start the tutorial/exercises by running the following command at the same level where your learn.json file is:
 
-```sh
+```bash
 $ npm i jest@24.8.0 -g
 $ learnpack start
 ```
@@ -71,13 +71,13 @@ $ learnpack start
 
 ## How are the exercises organized?
 
-Each exercise is a small react application containing the following files:
+Each exercise is a small React application containing the following files:
 
-1. **index.js:** represents the entry file for the entire exercise.
+1. **index.html:** represents the entry file for the entire exercise.
 2. **README.md:** contains exercise instructions.
 3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
 
-> Note: The exercises have automatic grading but its very rigid and strict. My recommendation is to ignore the tests and use them only as a recommendation, or you can get frustrated.
+> Note: The exercises have automatic grading, but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion, or you may get frustrated.
 
 ## Contributors
 
