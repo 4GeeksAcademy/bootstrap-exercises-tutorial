@@ -5,7 +5,7 @@
 <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
 <a href="https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
 
-Hi! I'm Alejandro Sanchez @alesanchezr, really excited to have you here! 🎉 😂 Learning to code is hard, you need coaching! DM me on Twitter if you have any question.
+Hi! I'm Alejandro Sanchez @alesanchezr, I'm thrilled to have you here! 🎉 😂 Learning to code is hard; you need coaching! DM me on Twitter if you have any question. You'll be learning the following concepts:
 
 <!-- endhide -->
 
