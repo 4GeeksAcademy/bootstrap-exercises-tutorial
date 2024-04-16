@@ -5,9 +5,9 @@
 <a href="https://twitter.com/alesanchezr"><img src="https://img.shields.io/twitter/follow/alesanchezr?style=social&logo=twitter" alt="follow on Twitter"></a>
 <a href="https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises.git"><img src="https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod" /></a>
 
-Hi! I'm Alejandro Sanchez @alesanchezr, I'm thrilled to have you here! 🎉 😂 Learning to code is hard; you need coaching! DM me on Twitter if you have any question. You'll be learning the following concepts:
+Hi! I'm Alejandro Sanchez @alesanchezr, I'm thrilled to have you here! 🎉 😂 Learning to code is hard; you need coaching! DM me on Twitter if you have any questions. You'll be learning the following concepts:
 
-<!-- endhide -->
+<!-- end hide -->
 
 ## You'll be learning the following concepts:
 
@@ -30,10 +30,10 @@ Hi! I'm Alejandro Sanchez @alesanchezr, I'm thrilled to have you here! 🎉 😂
   <li><a href="https://github.com/4GeeksAcademy/css-layouts-tutorial-exercises">Learn CSS Layouts</a></li>
   <li><a href="https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial">Learn Bootstrap</a>← 🔥 You are here now</li>
 </ol>
-Complete selection of autograded CSS exercises, anyone interested in learning CSS!
+Complete selection of autograded CSS exercises, for anyone interested in learning CSS!
 
 
-## One click installation (recommended):
+## One-click installation (recommended):
 
 You can open these exercises in just a few seconds by clicking: [Open in Codespaces](https://codespaces.new/?repo=4GeeksAcademy/bootstrap-exercises-tutorial) (recommended) or [Open in Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial.git).
 
@@ -47,7 +47,7 @@ Clone the repository in your local environment and follow the steps below:
 
 ```bash
 $ npm i learnpack -g
-$ learnpack plugins:install learnpack-html
+$ learnpack plugins: install learnpack-HTML
 ```
 
 2. Download these particular exercises using LearnPack and `cd` into the folder:
@@ -75,9 +75,9 @@ Each exercise is a small React application containing the following files:
 
 1. **index.html:** represents the entry file for the entire exercise.
 2. **README.md:** contains exercise instructions.
-3. **test.js:** you don't have to open this file, it contains the testing script for the exercise.
+3. **test.js:** You don't have to open this file, it contains the testing script for the exercise.
 
-> Note: The exercises have automatic grading, but it's very rigid and strict, my recommendation is to not take the tests too serious and use them only as a suggestion, or you may get frustrated.
+> Note: The exercises have automatic grading, but it's very rigid and strict, my recommendation is to not take the tests too seriously and use them only as a suggestion, or you may get frustrated.
 
 ## Contributors
 
