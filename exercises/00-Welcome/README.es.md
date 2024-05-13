@@ -20,7 +20,7 @@ Como habrás notado, HTML solo te permite crear websites básicos. Nadie quiere 
 
 Gracias a estas maravillosas personas ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
-1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻 (idea) 🤔, (build-tests) ⚠️, (pull-request-review) 👀 (build-tutorial) ✅ (documentation) 📖
+1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻 (idea) 🤔, (build-tests) ⚠️, (pull-request-review) 👀, (build-tutorial) ✅, (documentation) 📖.
 2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) ⚠️
 
 Este proyecto sigue la [all-contributors](https://github.com/kentcdodds/all-contributors) specification. ¡Colaboraciones de cualquier tipo son bienvenidas!
