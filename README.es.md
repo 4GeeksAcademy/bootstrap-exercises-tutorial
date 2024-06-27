@@ -11,7 +11,7 @@
 
 ## Aprenderás los siguientes conceptos:
 
-1. ¿Cómo aplicar Bootstrap a tu sitio web?
+1. Cómo aplicar Bootstrap a tu sitio web?
 
 2. Seleccionar elementos HTML de tu sitio web para aplicar los estilos de Bootstrap.
 
@@ -37,7 +37,7 @@ Una completa selección de ejercicios autograduados sobre CSS ¡para cualquier i
 
 Puedes empezar estos ejercicios en pocos segundos haciendo clic en: [Abrir en Codespaces](https://codespaces.new/?repo=4GeeksAcademy/bootstrap-exercises-tutorial) (recomendado) o [Abrir en Gitpod](https://gitpod.io#https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial).
 
-> Una vez ya tengas abierto VSCode los ejercicios de LearnPack deberían empezar automáticamente, si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
+> Una vez ya tengas abierto Visual Studio Code los ejercicios de LearnPack deberían empezar automáticamente, si esto no sucede puedes intentar empezar los ejercicios escribiendo este comando en tu terminal: `$ learnpack start`
 
 ## Instalación local:
 
