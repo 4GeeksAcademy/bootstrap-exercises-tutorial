@@ -1,3 +1,7 @@
+---
+tutorial: "https://youtu.be/bcaixxebDR4"
+---
+
 # `04` Navbar
 
 Como desarrolladores, constantemente hacemos menús de la misma manera: usando la etiqueta `ul`, eliminando la viñeta de `li`, mostrando la lista en una sola línea (in-line), etc.

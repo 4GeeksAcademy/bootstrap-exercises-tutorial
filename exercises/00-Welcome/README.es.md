@@ -1,3 +1,7 @@
+---
+intro: "https://www.youtube.com/watch?v=328yx6t-RTY"
+---
+
 # Bienvenido a los Ejercicios de Bootstrap!!
 
 Mi nombre es [Alejandro Sanchez](https://twitter.com/alesanchezr). Estoy realmente emocionado de tenerte aquí!! 🎉 😂 Aprender a programar es difícil, necesitas apoyo! Si tienes una pregunta envíame un mensaje directo por Twitter o Slack.

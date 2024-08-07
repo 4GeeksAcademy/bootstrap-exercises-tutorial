@@ -1,3 +1,7 @@
+---
+tutorial: "https://youtu.be/OikbBoNvvps"
+---
+
 # `03` Bootstrap Grid
 
 Ahora hablemos del *grid* (sistema de columnas y filas): como sabes, cada fila tiene **12 cajas** con un ancho de **8.33%** del sitio web, una columna puede ocupar de **1 a 12 espacios** de ancho, y todos dentro de la misma fila no pueden sumar más de **12 espacios**.
