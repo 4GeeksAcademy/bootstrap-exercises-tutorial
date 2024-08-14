@@ -26,5 +26,6 @@ Gracias a estas maravillosas personas ([emoji key](https://github.com/kentcdodds
 
 1. [Alejandro Sanchez (alesanchezr)](https://github.com/alesanchezr), contribution: (coder) 💻 (idea) 🤔, (build-tests) ⚠️, (pull-request-review) 👀, (build-tutorial) ✅, (documentation) 📖.
 2. [Paolo Lucano (plucodev)](https://github.com/plucodev), contribution: (coder), (build-tests) ⚠️
+3. [Charly Chacón (charlytoc)](https://github.com/charlytoc), contribution: (coder) 💻, (video-tutorials)  👀
 
 Este proyecto sigue la [all-contributors](https://github.com/kentcdodds/all-contributors) specification. ¡Colaboraciones de cualquier tipo son bienvenidas!
