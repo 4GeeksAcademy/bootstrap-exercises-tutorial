@@ -1,29 +1,29 @@
 {
-"slug": "bootstrap-exercises",
-"title": {
-    "us": "Learn Bootstrap Tutorial",
-    "es": "Tutorial para Aprender Bootstrap"
-},
-"description": {
-    "us": "A complete tutorial list of small targeted exercises that will show the most useful things you need to learn about bootstrap",
-    "es": "Un tutorial completo de ejercicios que mostrarán las cosas más útiles de Bootstrap."
-},
-"repository": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial",
-"language": "html",
-"duration": 5,
-"preview": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/preview.png?raw=true",
-"difficulty": "easy",
-"skills": ["bootstrap", "html-layouts", "css-styling"],
-"technolgy": "bootstrap",
-"videoSolutions": false,
-"projectType": "tutorial",
-"bugsLink": "https://github.com/learnpack/learnpack/issues/new",
-"graded": true,
-"telemetry": {
-    "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
-},
-"editor": {
-    "version": "4.0.0"
-}
+    "slug": "bootstrap-exercises",
+    "title": {
+        "us": "Learn Bootstrap Tutorial",
+        "es": "Tutorial para Aprender Bootstrap"
+    },
+    "description": {
+        "us": "A complete tutorial list of small targeted exercises that will show the most useful things you need to learn about bootstrap",
+        "es": "Un tutorial completo de ejercicios que mostrarán las cosas más útiles de Bootstrap."
+    },
+    "repository": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial",
+    "language": "html",
+    "duration": 5,
+    "preview": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/preview.png?raw=true",
+    "difficulty": "easy",
+    "skills": ["bootstrap", "html-layouts", "css-styling"],
+    "technolgy": "bootstrap",
+    "videoSolutions": false,
+    "projectType": "tutorial",
+    "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
+    "graded": true,
+    "telemetry": {
+        "batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry"
+    },
+    "editor": {
+        "version": "3.1"
+    }
 
 }
