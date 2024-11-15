@@ -11,15 +11,15 @@
 
 ## Aprenderás los siguientes conceptos:
 
-1. ¿Cómo aplicar Bootstrap a tu sitio web?
+A. ¿Cómo aplicar Bootstrap a tu sitio web?
 
-2. Seleccionar elementos HTML de tu sitio web para aplicar los estilos de Bootstrap.
+B. Seleccionar elementos HTML de tu sitio web para aplicar los estilos de Bootstrap.
 
-3. Aplicar clases de Bootstrap a esos elementos.
+C. Aplicar clases de Bootstrap a esos elementos.
 
-4. Uso de las reglas de Bootstrap más populares.
+D. Uso de las reglas de Bootstrap más populares.
 
-5. Los trucos de Bootstrap más populares.
+E. Los trucos de Bootstrap más populares.
 <!-- hide -->
 #### Antes de empezar... hay otros tutoriales relacionados
 
