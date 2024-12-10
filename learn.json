@@ -22,6 +22,11 @@
     },
     "editor": {
         "version": "4.0"
+    },
+    "video": {
+        "intro": {
+            "en": "",
+            "es": "https://www.youtube.com/watch?v=328yx6t-RTY"
+        }
     }
-
 }
