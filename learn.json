@@ -1,20 +1,18 @@
 {
     "slug": "bootstrap-exercises",
     "title": {
-        "us": "Learn Bootstrap Tutorial",
-        "es": "Tutorial para Aprender Bootstrap"
+        "us": "Learn Bootstrap from Zero",
+        "es": "Tutorial para Aprender Bootstrap desde Cero"
     },
     "description": {
-        "us": "A complete tutorial list of small targeted exercises that will show the most useful things you need to learn about bootstrap",
-        "es": "Un tutorial completo de ejercicios que mostrarán las cosas más útiles de Bootstrap."
+        "us": "Master Bootstrap with hands-on exercises covering grid systems, navigation bars, hero sections, and more. Build responsive, modern web designs efficiently.",
+        "es": "Domina Bootstrap con ejercicios prácticos que cubren maquetación y grillas, barras de navegación, secciones 'hero' y más. Crea diseños web modernos y responsivos de manera eficiente."
     },
     "repository": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial",
-    "language": "html",
     "duration": 5,
     "preview": "https://github.com/4GeeksAcademy/bootstrap-exercises-tutorial/blob/master/preview.png?raw=true",
     "difficulty": "easy",
-    "skills": ["bootstrap", "html-layouts", "css-styling"],
-    "technolgy": "bootstrap",
+    "technolgies": ["bootstrap", "html", "css"],
     "videoSolutions": false,
     "projectType": "tutorial",
     "bugsLink": "https://github.com/learnpack/learnpack/issues/new",
