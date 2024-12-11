@@ -21,7 +21,7 @@ In Bootstrap 5, the `justify-content` property is added to the classes to move t
 
 ## 📝 Instructions:
 
-1. Make the second row to have 3 columns of the same `width` (split the row in 3).
+1. Make the second row have 3 columns of the same `width` (split the row in 3).
 
 2. Add a third row with only one column of 12 slots.
 
