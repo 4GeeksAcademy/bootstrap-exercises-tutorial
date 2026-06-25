@@ -15,7 +15,7 @@
 
 2. Seleccionar elementos HTML de tu sitio web para aplicar los estilos de Bootstrap.
 
-3. Aplicar clases de Bootstrap a esos elementos.
+3. Aplicar la libreria y las clases de Bootstrap a esos elementos.
 
 4. Uso de las reglas de Bootstrap más populares.
 
