@@ -18,7 +18,7 @@
 
 7. The checkbox input should have `type="checkbox"`.
 
-8. The button should have a width of 100%
+8. The button should have a width of 100%.
 
 9. Everything should be done with bootstrap (No CSS allowed).
 
