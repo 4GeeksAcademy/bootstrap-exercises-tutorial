@@ -11,9 +11,26 @@
 		/>
 		<title>08 Bootstrap Forms</title>
 	</head>
+
 	<body>
-		<div class="col-3 mx-auto my-5">
+		<div class="conntainer-fluid">
 			<!-- Add your code below this line -->
+			<form class="col-3 mx-auto my-5 bg-secondary border rounded">
+				<h2>Please login</h2>
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label"></label>
+					<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address" />
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label"></label>
+					<input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Password" />
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" value="" id="checkDefault" />
+					<label class="form-check-label" for="checkDefault">Remember me</label>
+				</div>
+				<button type="button" class="btn btn-primary w-100">Login</button>
+			</form>
 		</div>
 	</body>
 </html>
