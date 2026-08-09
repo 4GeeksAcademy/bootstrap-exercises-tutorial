@@ -17,7 +17,7 @@
 
 3. Aplicar clases de Bootstrap a esos elementos.
 
-4. Uso de las reglas de Bootstrap más populares.
+4. Uso de las normas de Bootstrap más populares.
 
 5. Los trucos de Bootstrap más populares.
 <!-- hide -->
